@@ -2,8 +2,14 @@ parameters:
 
 
 database:
-	dsn: 'mysql:host=127.0.0.1;dbname=test'
-	user:
+	dsn: 'mysql:host=127.0.0.1;dbname=ukulelearn'
+	user: root
 	password:
 	options:
 		lazy: yes
+
+services:
+    artist_model:
+        class: App\Model\ArtistModel
+    base_model:
+        class: App\Model\BaseModel
