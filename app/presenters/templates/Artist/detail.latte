@@ -1,0 +1,6 @@
+{block content}
+<ul>
+{foreach $songs as $u}
+    <li><a n:href="Song:detail $u->id">{$u->title} - {$u->artist->name}</a></li>
+{/foreach}
+</ul>

@@ -1,0 +1,69 @@
+{
+	"name": "kdyby/doctrine-forms",
+	"type": "library",
+	"description": "Forms mapping and validation of Doctrine ORM entities for Nette Framework",
+	"keywords": ["nette", "kdyby", "doctrine", "forms", "validation", "mapping"],
+	"homepage": "http://kdyby.org",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Filip Procházka",
+			"homepage": "http://filip-prochazka.com",
+			"email": "filip@prochazka.su"
+		}
+	],
+	"support": {
+		"email": "filip@prochazka.su",
+		"issues": "https://github.com/Kdyby/DoctrineForms/issues"
+	},
+	"require": {
+		"nette/di": "~2.2@dev",
+		"nette/forms": "~2.2@dev",
+
+		"doctrine/orm": "~2.4",
+		"kdyby/annotations": "~2.0@dev",
+		"kdyby/validator": "~0.2@dev",
+		"symfony/property-access": "~2.3"
+	},
+	"require-dev": {
+		"nette/application": "~2.2@dev",
+		"nette/bootstrap": "~2.2@dev",
+		"nette/caching": "~2.2@dev",
+		"nette/component-model": "~2.2@dev",
+		"nette/database": "~2.2@dev",
+		"nette/deprecated": "~2.2@dev",
+		"nette/di": "~2.2@dev",
+		"nette/finder": "~2.2@dev",
+		"nette/forms": "~2.2@dev",
+		"nette/http": "~2.2@dev",
+		"nette/mail": "~2.2@dev",
+		"nette/neon": "~2.2@dev",
+		"nette/php-generator": "~2.2@dev",
+		"nette/reflection": "~2.2@dev",
+		"nette/robot-loader": "~2.2@dev",
+		"nette/safe-stream": "~2.2@dev",
+		"nette/security": "~2.2@dev",
+		"nette/tokenizer": "~2.2@dev",
+		"nette/utils": "~2.2@dev",
+		"latte/latte": "~2.2@dev",
+		"tracy/tracy": "~2.2@dev",
+
+		"kdyby/doctrine": "~2.1@dev",
+		"nette/tester": "@dev",
+		"jakub-onderka/php-parallel-lint": "~0.7"
+	},
+	"suggest": {
+		"kdyby/doctrine": "A powerful integration of Doctrine ORM into Nette Framework"
+	},
+	"conflict": {
+		"kdyby/doctrine": ">=0.10,<1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Kdyby\\DoctrineForms\\": "src/"
+		},
+		"classmap": [
+			"src/Kdyby/DoctrineForms/exceptions.php"
+		]
+	}
+}

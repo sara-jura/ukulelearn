@@ -6,12 +6,12 @@ use Latte\Runtime as LR;
 class Template43dc317793 extends Latte\Runtime\Template
 {
 	public $blocks = [
-		'head' => 'blockHead',
+		'styl' => 'blockStyl',
 		'scripts' => 'blockScripts',
 	];
 
 	public $blockTypes = [
-		'head' => 'html',
+		'styl' => 'html',
 		'scripts' => 'html',
 	];
 
@@ -33,13 +33,12 @@ class Template43dc317793 extends Latte\Runtime\Template
 			});
 			?> | <?php
 		}
-?>Nette Sandbox</title>
+?>Ukulelearn</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 13 */ ?>/css/style.css">
-	<?php
+<?php
 		if ($this->getParentName()) return get_defined_vars();
-		$this->renderBlock('head', get_defined_vars());
+		$this->renderBlock('styl', get_defined_vars());
 ?>
 </head>
 
@@ -47,16 +46,57 @@ class Template43dc317793 extends Latte\Runtime\Template
 <?php
 		$iterations = 0;
 		foreach ($flashes as $flash) {
-			?>	<div<?php if ($_tmp = array_filter(['flash', $flash->type])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>><?php
-			echo LR\Filters::escapeHtmlText($flash->message) /* line 18 */ ?></div>
+			?><div<?php if ($_tmp = array_filter(['flash', $flash->type])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>><?php
+			echo LR\Filters::escapeHtmlText($flash->message) /* line 21 */ ?></div>
 <?php
 			$iterations++;
 		}
 ?>
 
+<header class="container">
+	<div class="logo">
+		<a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Homepage:default")) ?>"><img src="<?php
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 25 */ ?>/images/logo.png" alt="logo"></a>
+	</div>
+	<nav>
+		<ul class="headernavleft">
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Homepage:default")) ?>">Home</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:default")) ?>">Songs</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Artist:default")) ?>">Artists</a></li>
+<?php
+		if ($user->loggedIn) {
+			?>			<li style="float:right"><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Login:out")) ?>">Log out</a></li>
+<?php
+		}
+		else {
+?>
+
+			<li style="float:right"><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("User:UserManager")) ?>">Sign up</a></li>
+			<li style="float:right"><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Login:default")) ?>">Log in</a></li>
+<?php
+		}
+?>
+
+		</ul>
+	</nav>
+</header>
+<hr class="cleaner">
+<div class="container" id="content">
+	<article class="content-left">
 <?php
 		$this->renderBlock('content', $this->params, 'html');
 ?>
+	</article>
+	<aside class="content-right">
+		<nav>
+			<ul>
+				<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:addsong")) ?>">Add song</a> </li>
+				<li>menu2</li>
+
+			</ul>
+		</nav>
+	</aside>
+</div>
 
 <?php
 		$this->renderBlock('scripts', get_defined_vars());
@@ -71,15 +111,19 @@ class Template43dc317793 extends Latte\Runtime\Template
 	function prepare()
 	{
 		extract($this->params);
-		if (isset($this->params['flash'])) trigger_error('Variable $flash overwritten in foreach on line 18');
+		if (isset($this->params['flash'])) trigger_error('Variable $flash overwritten in foreach on line 21');
 		Nette\Bridges\ApplicationLatte\UIRuntime::initialize($this, $this->parentName, $this->blocks);
 		
 	}
 
 
-	function blockHead($_args)
+	function blockStyl($_args)
 	{
-		
+		extract($_args);
+		?>		<link href="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 14 */ ?>/css/screen.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 15 */ ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<?php
 	}
 
 
@@ -89,7 +133,7 @@ class Template43dc317793 extends Latte\Runtime\Template
 ?>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
-	<script src="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 25 */ ?>/js/main.js"></script>
+	<script src="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 62 */ ?>/js/main.js"></script>
 <?php
 	}
 

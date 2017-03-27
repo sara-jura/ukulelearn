@@ -7,22 +7,59 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Sandbox</title>
+	<title>{ifset title}{include title|stripHtml} | {/ifset}Ukulelearn</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="{$basePath}/css/style.css">
-	{block head}{/block}
+	{block styl}
+		<link href="{$basePath}/css/screen.css" rel="stylesheet" type="text/css" />
+		<link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	{/block}
 </head>
 
 <body>
-	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 
-	{include content}
+<header class="container">
+	<div class="logo">
+		<a href="{link Homepage:default}"><img src="{$basePath}/images/logo.png" alt="logo"/></a>
+	</div>
+	<nav>
+		<ul class="headernavleft">
+			<li><a href="{link Homepage:default}">Home</a></li>
+			<li><a href="{link Song:default}">Songs</a></li>
+			<li><a href="{link Artist:default}">Artists</a></li>
+			{if $user->loggedIn}
+			<li style="float:right"><a href="{link Login:out}">Log out</a></li>
+			{else}
 
-	{block scripts}
+			<li style="float:right"><a href="{link User:UserManager}">Sign up</a></li>
+			<li style="float:right"><a href="{link Login:default}">Log in</a></li>
+			{/if}
+
+		</ul>
+	</nav>
+</header>
+<hr class="cleaner"/>
+<div class="container" id="content">
+	<article class="content-left">
+		{include content}
+	</article>
+	<aside class="content-right">
+		<nav>
+			<ul>
+				<li><a href="{link Song:addsong}">Add song</a> </li>
+				<li>menu2</li>
+
+			</ul>
+		</nav>
+	</aside>
+</div>
+
+{block scripts}
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
 	<script src="{$basePath}/js/main.js"></script>
-	{/block}
+{/block}
 </body>
 </html>

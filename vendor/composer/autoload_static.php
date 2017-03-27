@@ -4,15 +4,206 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitdc6e14957c2b5381f4cd12d5a240a45d
+class ComposerStaticInit0a6aa9b2201b2c4029fbd7bf150f4ed2
 {
     public static $files = array (
         '7745382c92b7799bf1294b1f43023ba2' => __DIR__ . '/..' . '/tracy/tracy/src/shortcuts.php',
         'e7a6fd2e7a869bb207158e9416bdd9b0' => __DIR__ . '/..' . '/nette/application/src/compatibility.php',
         'a1d067aa2e53d6b47171c03cfc0ea5be' => __DIR__ . '/..' . '/nette/safe-stream/src/loader.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '9d08842a2aa0dc42ee93aa591835610d' => __DIR__ . '/..' . '/kdyby/events/src/Doctrine/compatibility.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\Validator\\' => 28,
+            'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\PropertyAccess\\' => 33,
+            'Symfony\\Component\\Filesystem\\' => 29,
+            'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
+            'Doctrine\\Common\\' => 16,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\Validator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/validator',
+        ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\PropertyAccess\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/property-access',
+        ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
+        'Symfony\\Component\\Debug\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/debug',
+        ),
+        'Symfony\\Component\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Doctrine\\Instantiator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'K' => 
+        array (
+            'Kdyby\\Validator' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/validator/src',
+            ),
+            'Kdyby\\Translation' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/translation/src',
+            ),
+            'Kdyby\\Persistence\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/doctrine/src',
+            ),
+            'Kdyby\\Events\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/events/src',
+            ),
+            'Kdyby\\Doctrine\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/doctrine/src',
+            ),
+            'Kdyby\\DoctrineForms\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/doctrine-forms/src',
+            ),
+            'Kdyby\\DoctrineCache\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/doctrine-cache/src',
+            ),
+            'Kdyby\\DibiBridge\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/doctrine/src',
+            ),
+            'Kdyby\\Console\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/console/src',
+            ),
+            'Kdyby\\Annotations\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/kdyby/annotations/src',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\ORM\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/orm/lib',
+            ),
+            'Doctrine\\DBAL\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/dbal/lib',
+            ),
+            'Doctrine\\Common\\Lexer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
+            ),
+            'Doctrine\\Common\\Inflector\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
+            ),
+            'Doctrine\\Common\\Collections\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/collections/lib',
+            ),
+        ),
     );
 
     public static $classMap = array (
+        'KdybyModule\\CliPresenter' => __DIR__ . '/..' . '/kdyby/console/src/Kdyby/Console/CliPresenter.php',
+        'Kdyby\\Console\\Exception' => __DIR__ . '/..' . '/kdyby/console/src/Kdyby/Console/exceptions.php',
+        'Kdyby\\Console\\InvalidApplicationModeException' => __DIR__ . '/..' . '/kdyby/console/src/Kdyby/Console/exceptions.php',
+        'Kdyby\\Console\\InvalidArgumentException' => __DIR__ . '/..' . '/kdyby/console/src/Kdyby/Console/exceptions.php',
+        'Kdyby\\Console\\InvalidStateException' => __DIR__ . '/..' . '/kdyby/console/src/Kdyby/Console/exceptions.php',
+        'Kdyby\\Console\\UnknownCommandException' => __DIR__ . '/..' . '/kdyby/console/src/Kdyby/Console/exceptions.php',
+        'Kdyby\\DoctrineCache\\Exception' => __DIR__ . '/..' . '/kdyby/doctrine-cache/src/Kdyby/DoctrineCache/exceptions.php',
+        'Kdyby\\DoctrineCache\\NotImplementedException' => __DIR__ . '/..' . '/kdyby/doctrine-cache/src/Kdyby/DoctrineCache/exceptions.php',
+        'Kdyby\\DoctrineForms\\Exception' => __DIR__ . '/..' . '/kdyby/doctrine-forms/src/Kdyby/DoctrineForms/exceptions.php',
+        'Kdyby\\DoctrineForms\\InvalidArgumentException' => __DIR__ . '/..' . '/kdyby/doctrine-forms/src/Kdyby/DoctrineForms/exceptions.php',
+        'Kdyby\\DoctrineForms\\InvalidStateException' => __DIR__ . '/..' . '/kdyby/doctrine-forms/src/Kdyby/DoctrineForms/exceptions.php',
+        'Kdyby\\DoctrineForms\\NotImplementedException' => __DIR__ . '/..' . '/kdyby/doctrine-forms/src/Kdyby/DoctrineForms/exceptions.php',
+        'Kdyby\\DoctrineForms\\UnexpectedValueException' => __DIR__ . '/..' . '/kdyby/doctrine-forms/src/Kdyby/DoctrineForms/exceptions.php',
+        'Kdyby\\Doctrine\\BatchImportException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\DBALException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\DuplicateEntryException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\EmptyValueException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\Exception' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\InvalidArgumentException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\InvalidStateException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\MemberAccessException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\MissingClassException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\NotImplementedException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\NotSupportedException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\QueryException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\ReadOnlyCollectionException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\StaticClassException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Doctrine\\UnexpectedValueException' => __DIR__ . '/..' . '/kdyby/doctrine/src/Kdyby/Doctrine/exceptions.php',
+        'Kdyby\\Events\\Exception' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Events\\InvalidArgumentException' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Events\\InvalidListenerException' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Events\\InvalidStateException' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Events\\MemberAccessException' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Events\\NotSupportedException' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Events\\OutOfRangeException' => __DIR__ . '/..' . '/kdyby/events/src/Kdyby/Events/exceptions.php',
+        'Kdyby\\Translation\\Exception' => __DIR__ . '/..' . '/kdyby/translation/src/Kdyby/Translation/exceptions.php',
+        'Kdyby\\Translation\\InvalidArgumentException' => __DIR__ . '/..' . '/kdyby/translation/src/Kdyby/Translation/exceptions.php',
+        'Kdyby\\Translation\\InvalidResourceException' => __DIR__ . '/..' . '/kdyby/translation/src/Kdyby/Translation/exceptions.php',
+        'Kdyby\\Translation\\InvalidStateException' => __DIR__ . '/..' . '/kdyby/translation/src/Kdyby/Translation/exceptions.php',
+        'Kdyby\\Translation\\LoaderNotFoundException' => __DIR__ . '/..' . '/kdyby/translation/src/Kdyby/Translation/exceptions.php',
         'Latte\\CompileException' => __DIR__ . '/..' . '/latte/latte/src/Latte/exceptions.php',
         'Latte\\Compiler' => __DIR__ . '/..' . '/latte/latte/src/Latte/Compiler/Compiler.php',
         'Latte\\Engine' => __DIR__ . '/..' . '/latte/latte/src/Latte/Engine.php',
@@ -378,7 +569,10 @@ class ComposerStaticInitdc6e14957c2b5381f4cd12d5a240a45d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitdc6e14957c2b5381f4cd12d5a240a45d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0a6aa9b2201b2c4029fbd7bf150f4ed2::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0a6aa9b2201b2c4029fbd7bf150f4ed2::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit0a6aa9b2201b2c4029fbd7bf150f4ed2::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit0a6aa9b2201b2c4029fbd7bf150f4ed2::$classMap;
 
         }, null, ClassLoader::class);
     }

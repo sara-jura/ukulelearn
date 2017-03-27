@@ -2,14 +2,14 @@ parameters:
 
 
 database:
-	dsn: 'mysql:host=127.0.0.1;dbname=ukulelearn'
+	dsn: 'mysql:host=127.0.0.1;dbname=test'
 	user: root
 	password:
 	options:
 		lazy: yes
-
-services:
-    artist_model:
-        class: App\Model\ArtistModel
-    base_model:
-        class: App\Model\BaseModel
+doctrine:
+    user: doctrine
+    password: kreslo
+    dbname: doctrine_devel
+    metadata:
+        App: %appDir%

@@ -1,0 +1,14 @@
+{block content}
+<div id="letternav">
+<ul>
+        {foreach $letters as $u}
+                {* <li><a href="{$presenter->link(detail, $u->id)}>{$u->name}</a></li>*}
+            <li><a n:href="Song:lettersearch $u">{$u}</a></li>
+        {/foreach}
+</ul>
+</div>
+<ul>
+{foreach $songs as $u}
+        <li><a n:href="Song:detail $u->id">{$u->title} - {$u->artist->name}</a></li>
+{/foreach}
+</ul>

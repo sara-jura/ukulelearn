@@ -5,11 +5,20 @@ use Latte\Runtime as LR;
 
 class Templatec4a90211a0 extends Latte\Runtime\Template
 {
+	public $blocks = [
+		'content' => 'blockContent',
+	];
+
+	public $blockTypes = [
+		'content' => 'html',
+	];
+
 
 	function main()
 	{
 		extract($this->params);
-		?><h1>Hello world</h1><?php
+		if ($this->getParentName()) return get_defined_vars();
+		$this->renderBlock('content', get_defined_vars());
 		return get_defined_vars();
 	}
 
@@ -19,6 +28,13 @@ class Templatec4a90211a0 extends Latte\Runtime\Template
 		extract($this->params);
 		Nette\Bridges\ApplicationLatte\UIRuntime::initialize($this, $this->parentName, $this->blocks);
 		
+	}
+
+
+	function blockContent($_args)
+	{
+?><h1>Welcome to Ukulelearn</h1>
+<p>Take a look around.</p><?php
 	}
 
 }

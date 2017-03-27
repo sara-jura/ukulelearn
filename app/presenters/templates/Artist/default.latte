@@ -1,0 +1,8 @@
+{block content}
+
+<ul>
+{foreach $artists as $u}
+   {* <li><a href="{$presenter->link(detail, $u->id)}>{$u->name}</a></li>*}
+    <li><a n:href="Artist:detail $u->id">{$u->name}</a></li>
+{/foreach}
+</ul>
