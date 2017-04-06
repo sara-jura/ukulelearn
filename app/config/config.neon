@@ -25,6 +25,8 @@ services:
 	- App\Model\UserRepository
 	- App\Forms\LoginForm
 	- App\Presenters\LoginPresenter
+	- App\Model\ChordRepository
+	- App\Forms\ChordForm
 
 extensions:
     console: Kdyby\Console\DI\ConsoleExtension

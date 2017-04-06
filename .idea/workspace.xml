@@ -1,7 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="868e1180-9c0e-49cd-b9fa-268fee980ca4" name="Default" comment="" />
+    <list default="true" id="868e1180-9c0e-49cd-b9fa-268fee980ca4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_736c7c40d5.php.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/forms/ChordForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/ChordPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Chord/addchord.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Chord/default.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Chord/detail.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_736c7c40d5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_736c7c40d5.php.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_01cfe9642b688f10936e09087108c21e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_045a952375929d5bdd01f5c659dbae3b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_04f0eabe730bc37382b1419518d437fc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_0543a550b9eb89c07213077814b9064a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_0732bde0965610778fe2dfed5b191b83" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_07cf5ca2752b7b8a190f7c69eb5e2487" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_08a0beac6d69965190f94506e55e5a3d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_0a67ca9fc7c9e9d1ac51f4a3d9306d9c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_0d6fdb3b58da706c4608f671d77b3c5d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_100bde8b9693fc56fb859c185b396d29" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_113830f61121871ab879e9f0bdfdbe2f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1316c0067c515acb7a9a1179753f52c4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_146878659c33d6d4fd4a9386475cb432" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1474363ab22684f5b73452bb1d41f053" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_179e9e108d489529b870e32253977dbe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_186c0bdd41652735c4b38c881b884d10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1985984dc8f11a2a7737fcc19aa557ae" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_19c4aea18421f5e61b0ec35b8804a35d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1a84ce2f0433222103fb017b2a575ba9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1aef7908b3072a4e30c4fd784fa4bb8c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1b52d0c24abeec6da38b3314b34d4cd8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1c409a502f37483d67d2aa9227a245c2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_1dfa3e5da61e7699e4d222299d713595" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_202127b27f67108ae8620e33aebefc2b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_211eb33b94fa3af9a87ae438f96a1647" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_230a1f1eaa653658822a3a9876aec357" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_236a045f028f1f4100445d046ec4c4dc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_23a9122ac9f13eb769473589c6244ff9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_24273e162d9ead8f261009180561336d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_277eb1f39655b765466102c902389753" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_295a1067d3092c7f33646ca616ff2349" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_2a378b0f638fc0dedcac63b064bbb67d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_2a68e381dc93c5fc62d5b652ea73fde5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_2b51e25e4fc6c061a9e6cf8c70e3c0fa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_2b60b78d2363a8067a3abb12667e259c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_2cd1c5c8c96f4b4fe5bee1a6065a207b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_2f84c50fd0dcf97bcb6c25e92d667881" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3155d8f211f8273fa8803c8e700501b9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_339a1b85d0d5af104f59ee0aaa49e82a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_33ef6379ebfb89e73038b3f013889909" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_365d96e76359c9c24ededde3907e4baf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_369c188800bf42f9d03d3e9208a57c73" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_36ca7002d8cf3ff88e8d7e7e77160a18" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_373a35b4782403f6a6b4d4d77c4d18e0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_37b998448021c2a2b6eebc9e6722d936" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_37f92f28393ef65dfa49f160cbce714f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_380f9dc261239407df507f387b5af2ae" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3996be29713825f16649413c90e989ba" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_39d7d92b5bcd4e8ce63f0409b994af83" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3a7dc2b6c6a726eb998f83187c43a9b6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3b8f6c775aa7b5cfefa2c693e30e5210" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3d068a73a1aa3229c8c080c720df779b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3e0d08336439c8d0d9a422528ba6a8aa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_3ea745e93fdda51d2b624dcc0d023472" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_40a6b8d88425c6f857dfce87ca9a552a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_42bb01fc974690a8d565ac7672ac4249" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_44c87c07fa9260d3424e7888af244db7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_450bc321b67c2f704f7c7785b185c438" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_45a1d4a0cec95b666e7b58dfea0d2afd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_45f008444b5273310289c11055945a14" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_47dc4ba75ba658fe2461308175c3424b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_48df5141c2989881e7432a75d6eb82ac" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_4950e5a24cd51d645dffd7d5ab6108f8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_4ef3164221c6f235dd5c467b8f328444" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_4fc6ae45cad65692e32d0e2459d81d2f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_509e2920c2929e04520ad53f356ae342" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_514aedface8ea2efd94b07df980d404e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_536a4bcd15307805a48e99778014e93f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_564584078055c59bf8e58714ae714529" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_565d981b63fb580cda74c1fe963f868b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_57e85e3fe529ff1b5d3056578259426b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_57f382fd96c69ffedc20c4f9915af6d9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_58584900f8cdcf1de193116a5a104a9c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_5893acffd67659925131ab1c318668c3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_5b471c7eeaa0fc780e8cfd34759c9b97" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_5be3a5be3e5edb5cdf32afed1d5598bf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_5c687f7d77692a0686c429aed44d057c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_5eeb77d11ee8dccfb122eaf15faa53a9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_610f9e838da891c1e1c71117bf2049f9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_623579bb207cde44c68f7ec675cd845b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6336c56d30f8a1de9e43201549736f61" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_64f6d3ce996129119716366b4b62a746" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_65a06a1bab730b3b86d98ac3f6f7dbe6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_65f6ee5d695ec7c21243b1d410871e69" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_664c13186729e6b45ee32460c631466a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_67009d887d8f9db6247e5ef34a1432a7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6a331a53dde14ae9d514ac89d730d7d7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6b2f313ce4d5ca38bf77edb5989a87d3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6b623d61926712ee1ae013e9d92cd4d3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6c6e83f4c6b5a6a69b81dde0a8c2aeb0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6cb1d915ac5d66c4bb0f476ec89ac4e7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6e765d162ea627a1b78f662399410913" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_6fb61562c5b957a6e8e78f3e1b6d972f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_721a36cf92b665e3e3331082e2b73b84" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_724365b4872a668d89af7b06f9c4f217" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_730b25a9a4740f91993f2958e149fcfb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_735e82dec6766e9534d8559ea073b3ae" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7457d79e668b54c2610c108cb6724906" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_76a2dd14a880aad56cd0bbaaf69e17e7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_76ba94b4a24b48e1318b97c8a94f6a2d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7901443aa833f74f40d9aa7968aa50c2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_791d1056b9e18f021ed5cd2c07458b14" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7978076adeefbc32c4e00506350fc617" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7b2ea8ab6b11af33e56587d37ac39c1d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7ca9be033df9ea202940d94cec16d14b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7e7965168ca5dc12b1b3540875bad4f2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7e87e7ac9da42881b81a993d8651055f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_7f6d25e276a91ddb757929307d348dc0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_80ef3ee9b72689a65295ee9dbbd20718" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_813b86e69b517f8fffd7de6e116e019e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8323b19ffd5e21a69b10b13153a56286" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8418c70b9743f4e76d7313f0230c92eb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_84a67b1115fa8953ef38dfd921c85ce6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8529303ecd0e8a1098aa08c8f9168241" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_859230a4cc4a252392d9d13917aac8a2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_88d0b010f560df5048f10c55553e791e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_89a41eb37d3bf130fe969a169b495fbf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8a6154b3177d6dc2fbb4a13c590530c0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8abf033d3d8a7a8433869e4d22cdbdd9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8b5f9afddd5fd9a363929fa565c22436" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8bc700b3723e591d8cab3cee0898e25d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8bf46ae22bda23141674cd3214ff198a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8c33c62a60421beb2bd149d66586a216" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8c9e2ca2484efdff6da8ab156abb00cf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8d4629277f3b403497abded099c4df5e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8e1ec1bca6f2c24ac2206874ab63facf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8f5ea031006437dc7a4b0f4b85a5c7b7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_8f781fd0766f85ae39d9497d9d1c0baa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_915b9058bd9b874a28cbdc09673f8153" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_91c0eb85bdc658edab680a3b4914f3b5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_93440f3ebad14558c265beb81b5fa85b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_93cf889dcbca41383bf86257e6727ea0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_95ab50350bc66301f04bc43804de2364" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_95deddcf8d13f72ec882f1c7456ca95c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_97d1c14f56f42132eb228707adb0a316" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_98123732e96960c13c7861f75786be2f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9aeaf7f4f9b339e214b90e14e3b237a6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9af34f791b010b931d6b4ef36a4c5521" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9bfe96e2a60d989259e6cf8266d3e23c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9c5be02688375c91c60f10b62e775332" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9d3b5805c109f25a236209b259c886e3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9db1133b9997a3049a4ab3efe257ecc2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9ef1fbc42ce6f4d246aaa291840bef64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9efba5df0c3f7d7d74cf32dfacbc2d1e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_9f529ec4aaea3bce13a93f1892abbc93" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_a1cf0efb0d81b31876f3948947f31d91" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_a21d0130d1cf1cb6fbf94f8619fe715e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_a67b792b9420022fc6b5c9d3b9e645a5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_a6c0107564e7edbf40dac552b5a91575" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_a76c90e7b068d0c3488f5e5d20935484" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_aa2d70834cf87edaffae4cef233e1b55" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_aced5714976bbad8b5df09412a4a8960" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ad39930e82e33ea945c6a876cd5fba22" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ae6e5bcc316195998069363004dc7750" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_aee78d82a62bcd888dd2101ba40873b9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_b096c228d7826b51d52b58869c061fec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_b0bc63c52daddd2f06e034dead62100e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_b1a3d9b7b65d79e4f148f44eaef141a3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_b40c08e2549cecdd55e07ec8d754b3cd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_b546107dd476e9c089528788f7467329" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_b94f363948379e7b92b2ca59383d2d46" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ba0415152cfa2884d6974215e886cb41" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ba4ef939bc074dd10981ad13755ac8c3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_bba3fdb1252c39624f69ed852a836169" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_bd90d87793c9afe3981321ce6ff80058" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_bfd89ffe8f71e6df308b5253746cbfc8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c0e5a71f094684c34cfc2748e5e09ccc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c13db2ef73ba357e94cc3a73ae79ae40" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c19c4bafcd7c20a8139320bb12440935" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c1aee842d1e99c21087b2b71c90c6433" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c2179a8d8c35823c3d378e86cc135924" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c3b2f66f4bb6b33a6082711c6064c8db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c43338ccde39aab175852af1eb95963b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c562c8489caadd068c994e1d627674a2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c5882b21fea13a3027f87971387c199b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c8189a6972e3e3188eb442b40f8185ed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c87ec193f45f1ab4ecc12860c2ad846b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_c89d69cdaf53920b3aba27bcba670c66" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ca226f4fa09b781f7128a3810674b7d9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cad2db5985fca0b38adcd54b307e6d61" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cb310c1327b4d6395a7ae64338c87c6e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cbf5b930e8eac35620d40ccfae1f2fbc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cc05cb29a5752f622137114c0b348584" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cc24ac8ac7aff2c9a6c36c21d573b975" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cdedadfaf773a44f712aa4e636b2533f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cfdb8ec56396adfce35650cc1b1f32da" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_cffb9a8ef451790705fab62a5d360a75" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d064fd3ac5ca0e29a1bd03b34cc3d8db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d08b71077ce9108b7dfa8b0d51e24f40" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d0fc3bae0460e28c9c3c934830914850" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d126a620155d7e588a58d30658d10bcb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d1c31b4b48ff58589b57cf010335f9bc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d23dcf3549f814c191d8b46fdb6f9d39" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d2c3c631e2b755bf20c7cc1edb70c663" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d345560859d393168a9652fc7846fa7f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d3860ab75c66dbb281b8d143899717cb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d3fefe2e5e7a8554bb33c2d6f6ac7270" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d59d30db8532281d0bcf65f946f2bedb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d66e82876f01001b13d0ec55798ceb49" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d6dc8dba0a8dc96b89b69b65b94c2873" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d6e6cd15078607d1863de218bd67e599" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d87b748f57b26fa1e31d7ed299646e48" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_d9fe4d35d63f0ed08288b4d5e81f8aef" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_dae21fd1e4888e11ffdaaab86ca86a68" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_db305a190f5aff4857a1e32897227d2a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_dc86021f22b715c9612eef6efada4d47" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_df0d17f4f438f03d8897b7315d6576e3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_dfcdf290ba8da3bab29b87038c6bc45c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_dfd64bc91e7e11c9b1f1aa13dfe9ef9d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e21b4248fb88031a9043430d1ae20e9f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e35898e308349aaab5f9397403281eee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e368f10af44e35c291515bb643a7b5ae" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e3a814c0457267f0eacae9b06adbfaaf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e55500037c8550576947941b1d777081" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e6444466844d9d82f126c1810097f71b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e994736cdddb2588c31f0e81eb0f5a36" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_e9d962594a7d7ae71590c721490ba1bd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ebc37e5d3f7e98c75d5506af3baa1ee5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ec8f95b2962e5648c7cbc05fa8c58fed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ed3b650ff1e9a55cfce8748a61061bb6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ed7badf6bf54f7502047d63e16b47d1b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_edc1a2d433333d5c7f5275e8533cf7d5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_edf4ebc3adc0b9866f60fa4df9608ecc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_ee0bd55d3e3e5d1fd8d3ed36232a468a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_f0ca6749793c990c6d4f55c0309a9cc7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_f1d10710a96b5a22733c983034c4dd52" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_f25eab192f050e15dd59698b0eeb41bc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Annotations/_f36ad2f549ecdc1153430ca9f5943a8d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Artist-default.latte--a0639780e5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Artist-detail.latte--2da2034ed6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Chord-addchord.latte--929c37eef5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Chord-default.latte--c7945c14d4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Chord-detail.latte--a1787ce927.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Login-default.latte--0bf2bc2412.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Song-addsong.latte--33faa67856.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Song-default.latte--83461ebf42.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Song-detail.latte--cdee5c5dd8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/cache/latte/templates-Song-lettersearch.latte--67bd70436a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/journal.s3db" afterPath="$PROJECT_DIR$/temp/cache/journal.s3db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.local.neon" afterPath="$PROJECT_DIR$/app/config/config.local.neon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.neon" afterPath="$PROJECT_DIR$/app/config/config.neon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/CRUD.php" afterPath="$PROJECT_DIR$/app/model/CRUD.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Chord.php" afterPath="$PROJECT_DIR$/app/model/Chord.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/ChordRepository.php" afterPath="$PROJECT_DIR$/app/model/ChordRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/SongPresenter.php" afterPath="$PROJECT_DIR$/app/presenters/SongPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_b4bdf6fb00.php" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_b4bdf6fb00.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_b4bdf6fb00.php.meta" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_b4bdf6fb00.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/Nette.RobotLoader/_Nette.RobotLoader/_4179b4361d540d9a461a84c2d40c96b6" afterPath="$PROJECT_DIR$/temp/cache/Nette.RobotLoader/_Nette.RobotLoader/_4179b4361d540d9a461a84c2d40c96b6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/_Doctrine.Default.metadata/_07885b8b593b0debcf9a38e19246a958" afterPath="$PROJECT_DIR$/temp/cache/_Doctrine.Default.metadata/_07885b8b593b0debcf9a38e19246a958" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/latte/presenters-templates-@layout.latte--43dc317793.php" afterPath="$PROJECT_DIR$/temp/cache/latte/presenters-templates-@layout.latte--43dc317793.php" />
+    </list>
     <ignored path="sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,79 +283,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="config.neon" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+      <file leaf-file-name="ChordPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/ChordPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/LoginPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="836">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="false" />
+                <element signature="e#116#140#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/UserPresenter.php">
+      <file leaf-file-name="default.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#116#139#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SongPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/SongPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-              <folding>
-                <element signature="e#114#137#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArtistPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/ArtistPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="286">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomepagePresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/css/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="e#34#44#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usermanager.latte" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/templates/User/usermanager.latte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="462">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,30 +319,76 @@
       <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/templates/@layout.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="154">
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/UserRepository.php">
+      <file leaf-file-name="SongRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/SongRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <marker date="1490548671763" expanded="true" signature="1111:1165" ph="SELECT u FRO... App" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Song.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/model/Song.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/forms/LoginForm.php">
+      <file leaf-file-name="Artist.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/Artist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="440">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addsong.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/addsong.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChordForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/forms/ChordForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1298">
+              <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+              <folding>
+                <element signature="e#27#47#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SongPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/SongPresenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="968">
+              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="false" />
+                <element signature="e#114#137#0#PHP" expanded="false" />
+                <marker date="1491220108235" expanded="false" signature="118:122" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,32 +403,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/bootstrap.php" />
-        <option value="$PROJECT_DIR$/app/config/config.local.neon" />
         <option value="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte" />
-        <option value="$PROJECT_DIR$/app/model/Song.php" />
         <option value="$PROJECT_DIR$/app/model/Artist.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Song/detail.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Artist/detail.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Artist/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Song/lettersearch.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Song/default.latte" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/forms/EntityForm.php" />
         <option value="$PROJECT_DIR$/app/forms/SongFormFactory.php" />
         <option value="$PROJECT_DIR$/app/components/AddSongControl.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Song/addsong.latte" />
         <option value="$PROJECT_DIR$/www/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/app/forms/SongForm.php" />
         <option value="$PROJECT_DIR$/app/model/SongRepository.php" />
         <option value="$PROJECT_DIR$/app/model/ArtistRepository.php" />
-        <option value="$PROJECT_DIR$/app/model/CRUD.php" />
-        <option value="$PROJECT_DIR$/app/model/Chord.php" />
-        <option value="$PROJECT_DIR$/app/model/ChordRepository.php" />
         <option value="$PROJECT_DIR$/app/model/User.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/User/manageuser.latte" />
         <option value="$PROJECT_DIR$/app/presenters/UserPresenter.php" />
@@ -176,11 +435,23 @@
         <option value="$PROJECT_DIR$/app/presenters/templates/Login/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/User/usermanager.latte" />
         <option value="$PROJECT_DIR$/app/forms/LoginForm.php" />
-        <option value="$PROJECT_DIR$/app/presenters/ArtistPresenter.php" />
-        <option value="$PROJECT_DIR$/app/config/config.neon" />
-        <option value="$PROJECT_DIR$/app/presenters/SongPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/LoginPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Song/default.latte" />
+        <option value="$PROJECT_DIR$/app/model/ChordRepository.php" />
+        <option value="$PROJECT_DIR$/app/model/CRUD.php" />
+        <option value="$PROJECT_DIR$/app/model/Chord.php" />
+        <option value="$PROJECT_DIR$/app/forms/SongForm.php" />
+        <option value="$PROJECT_DIR$/app/forms/ChordForm.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Chord/addchord.latte" />
+        <option value="$PROJECT_DIR$/app/config/config.neon" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Chord/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/ChordPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Chord/detail.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/ArtistPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/SongPresenter.php" />
+        <option value="$PROJECT_DIR$/app/config/config.local.neon" />
+        <option value="$PROJECT_DIR$/app/model/Song.php" />
       </list>
     </option>
   </component>
@@ -226,27 +497,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -256,11 +527,29 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ukulelearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -274,25 +563,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -302,11 +577,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -320,11 +595,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -338,33 +613,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenters" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -379,18 +632,14 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -406,17 +655,43 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
+              <option name="myItemId" value="Song" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenters" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Artist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ukulelearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -430,11 +705,29 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
+              <option name="myItemId" value="ukulelearn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ukulelearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ukulelearn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -455,14 +748,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cviceni03b" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ukulelearn\app\presenters\templates\Chord" />
+      <recent name="C:\xampp\htdocs\ukulelearn\www\images" />
       <recent name="C:\xampp\htdocs\sandbox\www\css" />
       <recent name="C:\xampp\htdocs\sandbox\app\presenters" />
       <recent name="C:\xampp\htdocs\sandbox\app\presenters\templates" />
-      <recent name="C:\xampp\htdocs\sandbox\www\images" />
-      <recent name="C:\xampp\htdocs\sandbox\app\presenters\templates\Artist" />
     </key>
   </component>
   <component name="RunManager">
@@ -526,19 +820,32 @@
       <workItem from="1490470210188" duration="14331000" />
       <workItem from="1490527006174" duration="23847000" />
       <workItem from="1490611440428" duration="3500000" />
+      <workItem from="1490698648961" duration="42000" />
+      <workItem from="1490708399359" duration="10000" />
+      <workItem from="1490720813340" duration="16000" />
+      <workItem from="1490867347815" duration="14000" />
+      <workItem from="1491053568982" duration="640000" />
+      <workItem from="1491072484923" duration="287000" />
+      <workItem from="1491141048540" duration="4219000" />
+      <workItem from="1491217381834" duration="7876000" />
+      <workItem from="1491300460829" duration="6136000" />
+      <workItem from="1491342274923" duration="603000" />
+      <workItem from="1491400966187" duration="607000" />
+      <workItem from="1491478509973" duration="599000" />
+      <workItem from="1491486821026" duration="1159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41678000" />
+    <option name="totallyTimeSpent" value="63886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25778732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30612245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0804077" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,56 +897,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2222">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/router/RouterFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/SongPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <element signature="e#114#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/ArtistRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#130#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/@layout.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -648,41 +905,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Artist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#141#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/SongRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="e#109#128#0#PHP" expanded="false" />
-            <marker date="1490548671763" expanded="true" signature="1111:1165" ph="SELECT u FRO... App" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/lettersearch.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/exception--2017-03-25--20-36--439def6d8e.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Artist.php" />
+    <entry file="file://$PROJECT_DIR$/app/model/SongRepository.php" />
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/lettersearch.latte" />
+    <entry file="file://$PROJECT_DIR$/log/exception--2017-03-25--20-36--439def6d8e.html" />
     <entry file="file://$PROJECT_DIR$/log/exception.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -694,14 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -712,61 +930,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/detail.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Artist/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/Artist/detail.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router/RouterFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/lettersearch.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/lettersearch.latte" />
     <entry file="file://$PROJECT_DIR$/app/forms/EntityForm.php" />
     <entry file="file://$PROJECT_DIR$/app/forms/SongFormFactory.php" />
     <entry file="file://$PROJECT_DIR$/app/components/AddSongControl.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -774,230 +948,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/addsong.latte">
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Login/default.latte" />
+    <entry file="file://$PROJECT_DIR$/app/forms/UserForm.php" />
+    <entry file="file://$PROJECT_DIR$/app/model/Authenticator.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Presenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="768">
+          <caret line="1398" column="20" selection-start-line="1398" selection-start-column="20" selection-end-line="1398" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Song.php">
+    <entry file="file://$PROJECT_DIR$/app/model/User.php" />
+    <entry file="file://$PROJECT_DIR$/app/forms/LoginForm.php" />
+    <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/User/usermanager.latte" />
+    <entry file="file://$PROJECT_DIR$/app/model/ArtistRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/CRUD.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1348">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="e#138#159#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Artist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="e#109#141#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="44" column="74" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Chord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="637">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
+            <element signature="e#6#86#0#PHP" expanded="false" />
             <element signature="e#109#141#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Chord/addchord.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/SongForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/ChordRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/detail.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Chord/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Chord/detail.latte">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/RouterFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/ArtistPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Artist/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/UserPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/LoginPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/ChordForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+          <folding>
+            <element signature="e#27#47#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/SongPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="false" />
-            <element signature="e#109#128#0#PHP" expanded="false" />
+            <element signature="e#114#137#0#PHP" expanded="false" />
+            <marker date="1491220108235" expanded="false" signature="118:122" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/ArtistRepository.php">
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/addsong.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#130#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/SongRepository.php">
+    <entry file="file://$PROJECT_DIR$/app/presenters/ChordPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="836">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
           <folding>
-            <element signature="e#109#128#0#PHP" expanded="false" />
-            <marker date="1490548671763" expanded="true" signature="1111:1165" ph="SELECT u FRO... App" />
+            <element signature="e#6#86#0#PHP" expanded="false" />
+            <element signature="e#116#140#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="462">
           <caret line="21" column="15" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/SongForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#46#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Login/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/UserForm.php">
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Song/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-          <folding>
-            <element signature="e#27#46#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Authenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#27#56#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Presenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="1398" column="20" selection-start-line="1398" selection-start-column="20" selection-end-line="1398" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#34#44#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/LoginPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/ArtistPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/User/usermanager.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="286">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/@layout.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="154">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/SongPresenter.php">
+    <entry file="file://$PROJECT_DIR$/app/model/SongRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="e#114#137#0#PHP" expanded="true" />
+            <marker date="1490548671763" expanded="true" signature="1111:1165" ph="SELECT u FRO... App" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/UserPresenter.php">
+    <entry file="file://$PROJECT_DIR$/app/model/Artist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#116#139#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+    <entry file="file://$PROJECT_DIR$/app/model/Song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="22">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

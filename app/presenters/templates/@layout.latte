@@ -29,6 +29,8 @@
 			<li><a href="{link Homepage:default}">Home</a></li>
 			<li><a href="{link Song:default}">Songs</a></li>
 			<li><a href="{link Artist:default}">Artists</a></li>
+			<li><a href="{link Chord:default}">Chords</a></li>
+
 			{if $user->loggedIn}
 			<li style="float:right"><a href="{link Login:out}">Log out</a></li>
 			{else}
@@ -49,7 +51,7 @@
 		<nav>
 			<ul>
 				<li><a href="{link Song:addsong}">Add song</a> </li>
-				<li>menu2</li>
+				<li><a href="{link Chord:addchord}">Add chord</a> </li>
 
 			</ul>
 		</nav>

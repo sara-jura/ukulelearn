@@ -23,5 +23,8 @@ class ChordRepository extends Object
     {
         return isset($id) ? $this->em->find(Chord::class, $id) : NULL;
     }
-
+    public function findAll()
+    {
+        return $this->em->getRepository(Chord::getClassName())->findAll();
+    }
 }

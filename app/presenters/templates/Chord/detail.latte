@@ -1,0 +1,8 @@
+{block content}
+
+{if  $displayimg}
+<img src="{$basePath}/images/{$chord->name}.png" alt="logo" width="10%" height=auto style="float: left"/>
+{else}
+    <h1>{$chord->name}</h1>
+    <p>{$chord->notation}</p>
+{/if}

@@ -1,0 +1,6 @@
+{block content}
+<ul>
+    {foreach $chords as $u}
+      <li><a n:href="Chord:detail $u->id">{$u->name}</a></li>
+    {/foreach}
+</ul>

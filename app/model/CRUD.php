@@ -9,6 +9,7 @@
 namespace Cvut\Fit\BiWT1\Blog\BaseBundle\Entity;
 use App\Model\Artist;
 use App\Model\ArtistRepository;
+use App\Model\Chord;
 use App\Model\Song;
 use App\Model\SongRepository;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -27,6 +28,7 @@ trait CRUD
     private $em;
     private $artistRepository;
     private $songRepository;
+    private $chordRepository;
     /**
      * Konstruktor s injektovanou třídou pro práci s entitami.
      * @param EntityManager $em automaticky injektovaná třída pro práci s entitami
@@ -36,6 +38,8 @@ trait CRUD
         $this->em = $em;
         $this->artistRepository=$em->getRepository(Artist::class);
         $this->songRepository=$em->getRepository(Song::class);
+        $this->chordRepository=$em->getRepository(Chord::class);
+
     }
     /**
      * Notifies UoW and if no transaction is running flushes current state

@@ -63,6 +63,8 @@ class Template43dc317793 extends Latte\Runtime\Template
 			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Homepage:default")) ?>">Home</a></li>
 			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:default")) ?>">Songs</a></li>
 			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Artist:default")) ?>">Artists</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Chord:default")) ?>">Chords</a></li>
+
 <?php
 		if ($user->loggedIn) {
 			?>			<li style="float:right"><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Login:out")) ?>">Log out</a></li>
@@ -91,7 +93,7 @@ class Template43dc317793 extends Latte\Runtime\Template
 		<nav>
 			<ul>
 				<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:addsong")) ?>">Add song</a> </li>
-				<li>menu2</li>
+				<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Chord:addchord")) ?>">Add chord</a> </li>
 
 			</ul>
 		</nav>
@@ -133,7 +135,7 @@ class Template43dc317793 extends Latte\Runtime\Template
 ?>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
-	<script src="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 62 */ ?>/js/main.js"></script>
+	<script src="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 64 */ ?>/js/main.js"></script>
 <?php
 	}
 
