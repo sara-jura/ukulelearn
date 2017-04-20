@@ -17,16 +17,42 @@ session:
 
 services:
 	router: App\RouterFactory::createRouter
-	- App\Model\ArtistRepository
-	- App\Model\SongRepository
-	- App\Forms\SongForm
-	- App\Model\Authenticator
-	- App\Forms\UserForm
-	- App\Model\UserRepository
-	- App\Forms\LoginForm
-	- App\Presenters\LoginPresenter
-	- App\Model\ChordRepository
-	- App\Forms\ChordForm
+	artistrepository:
+	    class: App\Model\ArtistRepository
+	    inject: yes
+	songrepository:
+	    class: App\Model\SongRepository
+	    inject: yes
+	songform:
+	    class: App\Forms\SongForm
+	    inject: yes
+	authenticator:
+	    class: App\Model\Authenticator
+	    inject: yes
+	userform:
+	    class:  App\Forms\UserForm
+	    inject: yes
+	userrepository:
+	    class:  App\Model\UserRepository
+	    inject: yes
+	loginform:
+	    class:  App\Forms\LoginForm
+	    inject: yes
+	loginpresenter:
+	    class:  App\Presenters\LoginPresenter
+	    inject: yes
+	chordrepository:
+	    class:  App\Model\ChordRepository
+	    inject: yes
+	chordform:
+	    class:  App\Forms\ChordForm
+	    inject: yes
+	onepart:
+	    class: App\Model\OnePart
+	    inject: yes
+	chordclass:
+	    class: App\Model\Chord
+	    inject: yes
 
 extensions:
     console: Kdyby\Console\DI\ConsoleExtension

@@ -41,7 +41,8 @@ class Template67bd70436a extends Latte\Runtime\Template
 <?php
 		$iterations = 0;
 		foreach ($letters as $u) {
-			?>            <li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:lettersearch", [$u])) ?>"><?php
+			?>            <li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:lettersearch", [$u])) ?>"<?php
+			if ($_tmp = array_filter([$presenter->isLinkCurrent() ? 'active' : NULL])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>><?php
 			echo LR\Filters::escapeHtmlText($u) /* line 6 */ ?></a></li>
 <?php
 			$iterations++;

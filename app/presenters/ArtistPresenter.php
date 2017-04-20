@@ -25,7 +25,8 @@ class ArtistPresenter extends BasePresenter
     public function renderDefault() {
         /** TODO - nastavení atributu šablony users */
         $this->template->artists = $this->artistRepository->findAll();
-
+        $alphas = range('A', 'Z');
+        $this->template->letters=$alphas;
     }
 
     public function renderDetail($id) {
@@ -33,6 +34,11 @@ class ArtistPresenter extends BasePresenter
         //$dao = $this->EntityManager->getRepository(Model\Artist::getClassName());
         //$this->template->songs=$dao->findBy($name);
         $this->template->songs=$this->songRepository->findbyArtist($id);
+    }
+    public function renderLetterSearch($i){
+        $this->template->artists=$this->artistRepository->findByLetter($i);
+        $alphas = range('A', 'Z');
+        $this->template->letters=$alphas;
     }
     public function beforeRender()
     {

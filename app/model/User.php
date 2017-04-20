@@ -38,7 +38,7 @@ class User extends BaseEntity
     static private $roleList = array(
         'admin' => 'admin',
         'moderator' => 'moderator',
-        'quest' => 'quest');
+        'user' => 'user');
     /**
      * @param string $username
      * @param string $password

@@ -13,6 +13,8 @@ use \Kdyby\Doctrine\Entities\BaseEntity;
  */
 class Song extends BaseEntity
 {
+
+
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")
@@ -26,7 +28,8 @@ class Song extends BaseEntity
     protected $title;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\OneToMany(targetEntity="OneLine", mappedBy="song",cascade={"persist"})
+     * @var OneLine
      */
     protected $text;
     /**
@@ -82,7 +85,7 @@ class Song extends BaseEntity
      */
     public function setText($text)
     {
-        $this->text = $text;
+        $this->text[]=$text;
     }
 
     /**
@@ -103,3 +106,4 @@ class Song extends BaseEntity
 
 
 }
+

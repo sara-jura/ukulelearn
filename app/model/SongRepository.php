@@ -12,8 +12,7 @@ use Kdyby\Doctrine\EntityManager;
 use Nette\Object;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Cvut\Fit\BiWT1\Blog\BaseBundle\Entity\CRUD;
-
+use App\Model\CRUD;
 class SongRepository extends Object
 {
     use CRUD;

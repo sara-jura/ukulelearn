@@ -6,7 +6,7 @@
  * Time: 9:35
  */
 
-namespace Cvut\Fit\BiWT1\Blog\BaseBundle\Entity;
+namespace App\Model;
 use App\Model\Artist;
 use App\Model\ArtistRepository;
 use App\Model\Chord;

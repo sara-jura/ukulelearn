@@ -8,17 +8,20 @@
 
 namespace App\Model;
 use App\Model\Song;
+use App\Model\CRUD;
 use Kdyby\Doctrine\EntityManager;
 use Nette\Object;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Cvut\Fit\BiWT1\Blog\BaseBundle\Entity\CRUD;
-
 
 class ChordRepository extends Object
 {
     use CRUD;
-
+    private $repository;
+    public function inject(EntityManager $entityManager)
+    {
+        $this->repository = $entityManager->getRepository(Chord::class);
+    }
     public function getChord($id)
     {
         return isset($id) ? $this->em->find(Chord::class, $id) : NULL;
@@ -26,5 +29,9 @@ class ChordRepository extends Object
     public function findAll()
     {
         return $this->em->getRepository(Chord::getClassName())->findAll();
+    }
+    public function findByName($name)
+    {
+        return $this->repository->findOneBy(array('name' => $name));
     }
 }

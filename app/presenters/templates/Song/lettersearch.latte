@@ -3,7 +3,7 @@
     <ul>
         {foreach $letters as $u}
             {* <li><a href="{$presenter->link(detail, $u->id)}>{$u->name}</a></li>*}
-            <li><a n:href="Song:lettersearch $u">{$u}</a></li>
+            <li><a n:href="Song:lettersearch $u"  n:class="$presenter->isLinkCurrent() ? active">{$u}</a></li>
         {/foreach}
     </ul>
 </div>

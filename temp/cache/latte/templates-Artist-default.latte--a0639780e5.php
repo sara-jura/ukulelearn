@@ -26,7 +26,7 @@ class Templatea0639780e5 extends Latte\Runtime\Template
 	function prepare()
 	{
 		extract($this->params);
-		if (isset($this->params['u'])) trigger_error('Variable $u overwritten in foreach on line 4');
+		if (isset($this->params['u'])) trigger_error('Variable $u overwritten in foreach on line 4, 11');
 		Nette\Bridges\ApplicationLatte\UIRuntime::initialize($this, $this->parentName, $this->blocks);
 		
 	}
@@ -36,13 +36,26 @@ class Templatea0639780e5 extends Latte\Runtime\Template
 	{
 		extract($_args);
 ?>
-
+<div id="letternav">
+    <ul>
+<?php
+		$iterations = 0;
+		foreach ($letters as $u) {
+			?>            <li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Artist:lettersearch", [$u])) ?>"<?php
+			if ($_tmp = array_filter([$presenter->isLinkCurrent() ? 'active' : NULL])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>><?php
+			echo LR\Filters::escapeHtmlText($u) /* line 6 */ ?></a></li>
+<?php
+			$iterations++;
+		}
+?>
+    </ul>
+</div>
 <ul>
 <?php
 		$iterations = 0;
 		foreach ($artists as $u) {
 			?>    <li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Artist:detail", [$u->id])) ?>"><?php
-			echo LR\Filters::escapeHtmlText($u->name) /* line 6 */ ?></a></li>
+			echo LR\Filters::escapeHtmlText($u->name) /* line 13 */ ?></a></li>
 <?php
 			$iterations++;
 		}

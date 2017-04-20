@@ -1,3 +1,11 @@
 {block content}
 <h1>{$song->title}</h1>
-<p>{$song->text}</p>
+{*<p>{$song->text}</p>*}
+{foreach $song->text as $line}
+<div class="chordline">
+    {foreach $line->parts as $part}
+        <span><strong><span>[</span>{$part->chord->name}<span>]</span></strong>{$part->lyric}</span>
+
+    {/foreach}
+    </div>
+{/foreach}

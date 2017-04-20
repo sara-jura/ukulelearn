@@ -54,14 +54,17 @@ class Container_736c7c40d5 extends Nette\DI\Container
 					'translation.fallbackResolver',
 					'translation.catalogueFactory',
 					'translation.loader',
-					'115_App_Forms_LoginForm',
-					'116_App_Forms_SongForm',
-					'117_App_Forms_UserForm',
-					'118_App_Model_ArtistRepository',
-					'119_App_Model_Authenticator',
-					'120_App_Model_ChordRepository',
-					'121_App_Model_SongRepository',
-					'122_App_Model_UserRepository',
+					'chordform',
+					'loginform',
+					'songform',
+					'userform',
+					'artistrepository',
+					'authenticator',
+					'chordclass',
+					'chordrepository',
+					'onepart',
+					'songrepository',
+					'userrepository',
 				],
 			],
 			'Nette\Application\IRouter' => [['console.router', 'console.originalRouter'], ['routing.router']],
@@ -304,18 +307,23 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			'Symfony\Component\Validator\Constraints\EmailValidator' => [1 => ['validator.constraint.email']],
 			'Symfony\Component\Validator\Constraints\ExpressionValidator' => [1 => ['validator.constraint.expression']],
 			'Symfony\Component\Validator\Mapping\Loader\AnnotationLoader' => [['validator.annotationsLoader']],
-			'App\Forms\LoginForm' => [1 => ['115_App_Forms_LoginForm']],
-			'App\Forms\SongForm' => [1 => ['116_App_Forms_SongForm']],
-			'App\Forms\UserForm' => [1 => ['117_App_Forms_UserForm']],
-			'App\Model\ArtistRepository' => [1 => ['118_App_Model_ArtistRepository']],
-			'Nette\Security\IAuthenticator' => [1 => ['119_App_Model_Authenticator']],
-			'App\Model\Authenticator' => [1 => ['119_App_Model_Authenticator']],
-			'App\Model\ChordRepository' => [1 => ['120_App_Model_ChordRepository']],
-			'App\Model\SongRepository' => [1 => ['121_App_Model_SongRepository']],
-			'App\Model\UserRepository' => [1 => ['122_App_Model_UserRepository']],
+			'App\Forms\ChordForm' => [1 => ['chordform']],
+			'App\Forms\LoginForm' => [1 => ['loginform']],
+			'App\Forms\SongForm' => [1 => ['songform']],
+			'App\Forms\UserForm' => [1 => ['userform']],
+			'App\Model\ArtistRepository' => [1 => ['artistrepository']],
+			'Nette\Security\IAuthenticator' => [1 => ['authenticator']],
+			'App\Model\Authenticator' => [1 => ['authenticator']],
+			'Kdyby\Doctrine\Entities\BaseEntity' => [1 => ['chordclass', 'onepart']],
+			'Serializable' => [1 => ['chordclass', 'onepart']],
+			'App\Model\Chord' => [1 => ['chordclass']],
+			'App\Model\ChordRepository' => [1 => ['chordrepository']],
+			'App\Model\OnePart' => [1 => ['onepart']],
+			'App\Model\SongRepository' => [1 => ['songrepository']],
+			'App\Model\UserRepository' => [1 => ['userrepository']],
 			'App\Presenters\BasePresenter' => [
 				1 => [
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -325,7 +333,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\UI\Presenter' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -337,7 +345,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\UI\Control' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -349,7 +357,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\UI\Component' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -361,7 +369,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\ComponentModel\Container' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -373,7 +381,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\ComponentModel\Component' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -385,7 +393,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\UI\IRenderable' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -397,7 +405,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\ComponentModel\IContainer' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -409,7 +417,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\ComponentModel\IComponent' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -421,7 +429,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\UI\ISignalReceiver' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -433,7 +441,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\UI\IStatePersistent' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -445,7 +453,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'ArrayAccess' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -458,7 +466,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			],
 			'Nette\Application\IPresenter' => [
 				[
-					'123_App_Presenters_LoginPresenter',
+					'loginpresenter',
 					'application.1',
 					'application.2',
 					'application.3',
@@ -471,7 +479,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 					'application.10',
 				],
 			],
-			'App\Presenters\LoginPresenter' => [1 => ['123_App_Presenters_LoginPresenter']],
+			'App\Presenters\LoginPresenter' => [1 => ['loginpresenter']],
 			'App\Presenters\ArtistPresenter' => [1 => ['application.1']],
 			'App\Presenters\ChordPresenter' => [1 => ['application.2']],
 			'App\Presenters\Error4xxPresenter' => [1 => ['application.3']],
@@ -488,15 +496,6 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			'Nette\DI\Container' => [1 => ['container']],
 		],
 		'services' => [
-			'115_App_Forms_LoginForm' => 'App\Forms\LoginForm',
-			'116_App_Forms_SongForm' => 'App\Forms\SongForm',
-			'117_App_Forms_UserForm' => 'App\Forms\UserForm',
-			'118_App_Model_ArtistRepository' => 'App\Model\ArtistRepository',
-			'119_App_Model_Authenticator' => 'App\Model\Authenticator',
-			'120_App_Model_ChordRepository' => 'App\Model\ChordRepository',
-			'121_App_Model_SongRepository' => 'App\Model\SongRepository',
-			'122_App_Model_UserRepository' => 'App\Model\UserRepository',
-			'123_App_Presenters_LoginPresenter' => 'App\Presenters\LoginPresenter',
 			'annotations.cache.annotations' => 'Doctrine\Common\Cache\Cache',
 			'annotations.reader' => 'Doctrine\Common\Annotations\Reader',
 			'annotations.reflectionReader' => 'Doctrine\Common\Annotations\AnnotationReader',
@@ -513,8 +512,13 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			'application.application' => 'Nette\Application\Application',
 			'application.linkGenerator' => 'Nette\Application\LinkGenerator',
 			'application.presenterFactory' => 'Nette\Application\IPresenterFactory',
+			'artistrepository' => 'App\Model\ArtistRepository',
+			'authenticator' => 'App\Model\Authenticator',
 			'cache.journal' => 'Nette\Caching\Storages\IJournal',
 			'cache.storage' => 'Nette\Caching\IStorage',
+			'chordclass' => 'App\Model\Chord',
+			'chordform' => 'App\Forms\ChordForm',
+			'chordrepository' => 'App\Model\ChordRepository',
 			'console.application' => 'Kdyby\Console\Application',
 			'console.helperSet' => 'Symfony\Component\Console\Helper\HelperSet',
 			'console.originalRouter' => 'Nette\Application\IRouter',
@@ -568,11 +572,16 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			'http.response' => 'Nette\Http\Response',
 			'latte.latteFactory' => 'Latte\Engine',
 			'latte.templateFactory' => 'Nette\Application\UI\ITemplateFactory',
+			'loginform' => 'App\Forms\LoginForm',
+			'loginpresenter' => 'App\Presenters\LoginPresenter',
 			'mail.mailer' => 'Nette\Mail\IMailer',
+			'onepart' => 'App\Model\OnePart',
 			'routing.router' => 'Nette\Application\Routers\RouteList',
 			'security.user' => 'Nette\Security\User',
 			'security.userStorage' => 'Nette\Security\IUserStorage',
 			'session.session' => 'Nette\Http\Session',
+			'songform' => 'App\Forms\SongForm',
+			'songrepository' => 'App\Model\SongRepository',
 			'tracy.bar' => 'Tracy\Bar',
 			'tracy.blueScreen' => 'Tracy\BlueScreen',
 			'tracy.logger' => 'Tracy\ILogger',
@@ -613,6 +622,8 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			'translation.userLocaleResolver.param' => 'Kdyby\Translation\LocaleResolver\LocaleParamResolver',
 			'translation.userLocaleResolver.session' => 'Kdyby\Translation\LocaleResolver\SessionResolver',
 			'translation.writer' => 'Symfony\Component\Translation\Writer\TranslationWriter',
+			'userform' => 'App\Forms\UserForm',
+			'userrepository' => 'App\Model\UserRepository',
 			'validator.annotationsLoader' => 'Symfony\Component\Validator\Mapping\Loader\AnnotationLoader',
 			'validator.cache' => 'Symfony\Component\Validator\Mapping\Cache\CacheInterface',
 			'validator.cache.validator' => 'Doctrine\Common\Cache\Cache',
@@ -626,7 +637,6 @@ class Container_736c7c40d5 extends Nette\DI\Container
 		],
 		'tags' => [
 			'inject' => [
-				'123_App_Presenters_LoginPresenter' => TRUE,
 				'annotations.cache.annotations' => FALSE,
 				'application.1' => TRUE,
 				'application.10' => TRUE,
@@ -638,6 +648,11 @@ class Container_736c7c40d5 extends Nette\DI\Container
 				'application.7' => TRUE,
 				'application.8' => TRUE,
 				'application.9' => TRUE,
+				'artistrepository' => TRUE,
+				'authenticator' => TRUE,
+				'chordclass' => TRUE,
+				'chordform' => TRUE,
+				'chordrepository' => TRUE,
 				'console.application' => FALSE,
 				'console.helperSet' => FALSE,
 				'console.router' => FALSE,
@@ -667,6 +682,11 @@ class Container_736c7c40d5 extends Nette\DI\Container
 				'doctrine.default.entityManager' => FALSE,
 				'doctrine.default.metadataDriver' => FALSE,
 				'doctrine.default.ormConfiguration' => FALSE,
+				'loginform' => TRUE,
+				'loginpresenter' => TRUE,
+				'onepart' => TRUE,
+				'songform' => TRUE,
+				'songrepository' => TRUE,
 				'translation.catalogueCompiler' => FALSE,
 				'translation.catalogueFactory' => FALSE,
 				'translation.console.extract' => FALSE,
@@ -704,10 +724,11 @@ class Container_736c7c40d5 extends Nette\DI\Container
 				'translation.userLocaleResolver.param' => FALSE,
 				'translation.userLocaleResolver.session' => FALSE,
 				'translation.writer' => FALSE,
+				'userform' => TRUE,
+				'userrepository' => TRUE,
 				'validator.cache.validator' => FALSE,
 			],
 			'nette.presenter' => [
-				'123_App_Presenters_LoginPresenter' => 'App\Presenters\LoginPresenter',
 				'application.1' => 'App\Presenters\ArtistPresenter',
 				'application.10' => 'NetteModule\MicroPresenter',
 				'application.2' => 'App\Presenters\ChordPresenter',
@@ -718,6 +739,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 				'application.7' => 'App\Presenters\UserPresenter',
 				'application.8' => 'KdybyModule\CliPresenter',
 				'application.9' => 'NetteModule\ErrorPresenter',
+				'loginpresenter' => 'App\Presenters\LoginPresenter',
 			],
 			'kdyby.console.command' => [
 				'doctrine.cli.0' => TRUE,
@@ -822,108 +844,6 @@ class Container_736c7c40d5 extends Nette\DI\Container
 
 
 	/**
-	 * @return App\Forms\LoginForm
-	 */
-	public function createService__115_App_Forms_LoginForm()
-	{
-		$service = new App\Forms\LoginForm($this->getService('security.user'), $this->getService('119_App_Model_Authenticator'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Forms\SongForm
-	 */
-	public function createService__116_App_Forms_SongForm()
-	{
-		$service = new App\Forms\SongForm($this->getService('doctrine.default.entityManager'),
-			$this->getService('121_App_Model_SongRepository'), $this->getService('118_App_Model_ArtistRepository'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Forms\UserForm
-	 */
-	public function createService__117_App_Forms_UserForm()
-	{
-		$service = new App\Forms\UserForm($this->getService('122_App_Model_UserRepository'),
-			$this->getService('doctrine.default.entityManager'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Model\ArtistRepository
-	 */
-	public function createService__118_App_Model_ArtistRepository()
-	{
-		$service = new App\Model\ArtistRepository($this->getService('doctrine.default.entityManager'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Model\Authenticator
-	 */
-	public function createService__119_App_Model_Authenticator()
-	{
-		$service = new App\Model\Authenticator($this->getService('122_App_Model_UserRepository'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Model\ChordRepository
-	 */
-	public function createService__120_App_Model_ChordRepository()
-	{
-		$service = new App\Model\ChordRepository($this->getService('doctrine.default.entityManager'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Model\SongRepository
-	 */
-	public function createService__121_App_Model_SongRepository()
-	{
-		$service = new App\Model\SongRepository($this->getService('doctrine.default.entityManager'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Model\UserRepository
-	 */
-	public function createService__122_App_Model_UserRepository()
-	{
-		$service = new App\Model\UserRepository($this->getService('doctrine.default.entityManager'));
-		return $service;
-	}
-
-
-	/**
-	 * @return App\Presenters\LoginPresenter
-	 */
-	public function createService__123_App_Presenters_LoginPresenter()
-	{
-		$service = new App\Presenters\LoginPresenter;
-		$service->injectPrimary($this, $this->getService('application.presenterFactory'),
-			$this->getService('routing.router'), $this->getService('http.request'),
-			$this->getService('http.response'), $this->getService('session.session'),
-			$this->getService('security.user'), $this->getService('latte.templateFactory'));
-		$service->loginManager = $this->getService('115_App_Forms_LoginForm');
-		$service->invalidLinkMode = 1;
-		$service->onShutdown = $this->getService('events.manager')->createEvent(['App\Presenters\LoginPresenter', 'onShutdown'],
-			$service->onShutdown, NULL, FALSE);
-		$service->onAnchor = $this->getService('events.manager')->createEvent(['App\Presenters\LoginPresenter', 'onAnchor'],
-			$service->onAnchor, NULL, FALSE);
-		return $service;
-	}
-
-
-	/**
 	 * @return Doctrine\Common\Cache\Cache
 	 */
 	public function createServiceAnnotations__cache__annotations()
@@ -968,8 +888,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			$this->getService('routing.router'), $this->getService('http.request'),
 			$this->getService('http.response'), $this->getService('session.session'),
 			$this->getService('security.user'), $this->getService('latte.templateFactory'));
-		$service->injectDependencies($this->getService('118_App_Model_ArtistRepository'),
-			$this->getService('121_App_Model_SongRepository'));
+		$service->injectDependencies($this->getService('artistrepository'), $this->getService('songrepository'));
 		$service->invalidLinkMode = 1;
 		$service->onShutdown = $this->getService('events.manager')->createEvent(['App\Presenters\ArtistPresenter', 'onShutdown'],
 			$service->onShutdown, NULL, FALSE);
@@ -1000,8 +919,8 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			$this->getService('routing.router'), $this->getService('http.request'),
 			$this->getService('http.response'), $this->getService('session.session'),
 			$this->getService('security.user'), $this->getService('latte.templateFactory'));
-		$service->injectDependencies($this->getService('118_App_Model_ArtistRepository'),
-			$this->getService('121_App_Model_SongRepository'), $this->getService('120_App_Model_ChordRepository'));
+		$service->injectDependencies($this->getService('artistrepository'), $this->getService('songrepository'),
+			$this->getService('chordrepository'), $this->getService('chordform'));
 		$service->invalidLinkMode = 1;
 		$service->onShutdown = $this->getService('events.manager')->createEvent(['App\Presenters\ChordPresenter', 'onShutdown'],
 			$service->onShutdown, NULL, FALSE);
@@ -1070,8 +989,8 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			$this->getService('routing.router'), $this->getService('http.request'),
 			$this->getService('http.response'), $this->getService('session.session'),
 			$this->getService('security.user'), $this->getService('latte.templateFactory'));
-		$service->injectDependencies($this->getService('118_App_Model_ArtistRepository'),
-			$this->getService('121_App_Model_SongRepository'), $this->getService('116_App_Forms_SongForm'));
+		$service->injectDependencies($this->getService('artistrepository'), $this->getService('songrepository'),
+			$this->getService('songform'));
 		$service->invalidLinkMode = 1;
 		$service->onShutdown = $this->getService('events.manager')->createEvent(['App\Presenters\SongPresenter', 'onShutdown'],
 			$service->onShutdown, NULL, FALSE);
@@ -1091,7 +1010,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 			$this->getService('routing.router'), $this->getService('http.request'),
 			$this->getService('http.response'), $this->getService('session.session'),
 			$this->getService('security.user'), $this->getService('latte.templateFactory'));
-		$service->injectUserForm($this->getService('117_App_Forms_UserForm'));
+		$service->injectUserForm($this->getService('userform'));
 		$service->invalidLinkMode = 1;
 		$service->onShutdown = $this->getService('events.manager')->createEvent(['App\Presenters\UserPresenter', 'onShutdown'],
 			$service->onShutdown, NULL, FALSE);
@@ -1191,6 +1110,26 @@ class Container_736c7c40d5 extends Nette\DI\Container
 
 
 	/**
+	 * @return App\Model\ArtistRepository
+	 */
+	public function createServiceArtistrepository()
+	{
+		$service = new App\Model\ArtistRepository($this->getService('doctrine.default.entityManager'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Model\Authenticator
+	 */
+	public function createServiceAuthenticator()
+	{
+		$service = new App\Model\Authenticator($this->getService('userrepository'));
+		return $service;
+	}
+
+
+	/**
 	 * @return Nette\Caching\Storages\IJournal
 	 */
 	public function createServiceCache__journal()
@@ -1207,6 +1146,38 @@ class Container_736c7c40d5 extends Nette\DI\Container
 	{
 		$service = new Nette\Caching\Storages\FileStorage('C:\xampp\htdocs\ukulelearn\app/../temp/cache',
 			$this->getService('cache.journal'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Model\Chord
+	 */
+	public function createServiceChordclass()
+	{
+		$service = new App\Model\Chord;
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Forms\ChordForm
+	 */
+	public function createServiceChordform()
+	{
+		$service = new App\Forms\ChordForm($this->getService('doctrine.default.entityManager'),
+			$this->getService('songrepository'), $this->getService('artistrepository'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Model\ChordRepository
+	 */
+	public function createServiceChordrepository()
+	{
+		$service = new App\Model\ChordRepository($this->getService('doctrine.default.entityManager'));
+		$service->inject($this->getService('doctrine.default.entityManager'));
 		return $service;
 	}
 
@@ -1879,11 +1850,52 @@ class Container_736c7c40d5 extends Nette\DI\Container
 
 
 	/**
+	 * @return App\Forms\LoginForm
+	 */
+	public function createServiceLoginform()
+	{
+		$service = new App\Forms\LoginForm($this->getService('security.user'), $this->getService('authenticator'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Presenters\LoginPresenter
+	 */
+	public function createServiceLoginpresenter()
+	{
+		$service = new App\Presenters\LoginPresenter;
+		$service->injectPrimary($this, $this->getService('application.presenterFactory'),
+			$this->getService('routing.router'), $this->getService('http.request'),
+			$this->getService('http.response'), $this->getService('session.session'),
+			$this->getService('security.user'), $this->getService('latte.templateFactory'));
+		$service->loginManager = $this->getService('loginform');
+		$service->invalidLinkMode = 1;
+		$service->onShutdown = $this->getService('events.manager')->createEvent(['App\Presenters\LoginPresenter', 'onShutdown'],
+			$service->onShutdown, NULL, FALSE);
+		$service->onAnchor = $this->getService('events.manager')->createEvent(['App\Presenters\LoginPresenter', 'onAnchor'],
+			$service->onAnchor, NULL, FALSE);
+		return $service;
+	}
+
+
+	/**
 	 * @return Nette\Mail\IMailer
 	 */
 	public function createServiceMail__mailer()
 	{
 		$service = new Nette\Mail\SendmailMailer;
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Model\OnePart
+	 */
+	public function createServiceOnepart()
+	{
+		$service = new App\Model\OnePart;
+		$service->inject($this->getService('chordrepository'), $this->getService('chordclass'));
 		return $service;
 	}
 
@@ -1905,7 +1917,7 @@ class Container_736c7c40d5 extends Nette\DI\Container
 	 */
 	public function createServiceSecurity__user()
 	{
-		$service = new Nette\Security\User($this->getService('security.userStorage'), $this->getService('119_App_Model_Authenticator'));
+		$service = new Nette\Security\User($this->getService('security.userStorage'), $this->getService('authenticator'));
 		$service->onLoggedIn = $this->getService('events.manager')->createEvent(['Nette\Security\User', 'onLoggedIn'],
 			$service->onLoggedIn, NULL, FALSE);
 		$service->onLoggedOut = $this->getService('events.manager')->createEvent(['Nette\Security\User', 'onLoggedOut'],
@@ -1931,6 +1943,28 @@ class Container_736c7c40d5 extends Nette\DI\Container
 	{
 		$service = new Nette\Http\Session($this->getService('http.request'), $this->getService('http.response'));
 		$service->setExpiration('14 days');
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Forms\SongForm
+	 */
+	public function createServiceSongform()
+	{
+		$service = new App\Forms\SongForm($this->getService('doctrine.default.entityManager'),
+			$this->getService('songrepository'), $this->getService('artistrepository'),
+			$this->getService('chordrepository'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Model\SongRepository
+	 */
+	public function createServiceSongrepository()
+	{
+		$service = new App\Model\SongRepository($this->getService('doctrine.default.entityManager'));
 		return $service;
 	}
 
@@ -2479,6 +2513,26 @@ class Container_736c7c40d5 extends Nette\DI\Container
 		$service->addDumper('csv', $this->getService('translation.dumper.csv'));
 		$service->addDumper('ini', $this->getService('translation.dumper.ini'));
 		$service->addDumper('res', $this->getService('translation.dumper.res'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Forms\UserForm
+	 */
+	public function createServiceUserform()
+	{
+		$service = new App\Forms\UserForm($this->getService('userrepository'), $this->getService('doctrine.default.entityManager'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Model\UserRepository
+	 */
+	public function createServiceUserrepository()
+	{
+		$service = new App\Model\UserRepository($this->getService('doctrine.default.entityManager'));
 		return $service;
 	}
 

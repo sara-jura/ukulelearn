@@ -8,7 +8,7 @@
 
 namespace App\Model;
 use App\Model\Artist;
-use Cvut\Fit\BiWT1\Blog\BaseBundle\Entity\CRUD;
+use App\Model\CRUD;
 use Kdyby\Doctrine\EntityManager;
 use Nette\Object;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -32,4 +32,11 @@ class ArtistRepository extends Object
     {
         return $this->artistRepository->findOneBy(array('name'=>$name));
     }
+    public function findByLetter($i){
+        $query = $this->em->createQuery('SELECT u FROM App\Model\Artist u WHERE u.name LIKE :foo');
+        $query->setParameter('foo', $i.'%');
+        $songs = $query->getResult();
+        return $songs;
+    }
+
 }

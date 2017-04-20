@@ -60,10 +60,14 @@ class Template43dc317793 extends Latte\Runtime\Template
 	</div>
 	<nav>
 		<ul class="headernavleft">
-			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Homepage:default")) ?>">Home</a></li>
-			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:default")) ?>">Songs</a></li>
-			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Artist:default")) ?>">Artists</a></li>
-			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Chord:default")) ?>">Chords</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Homepage:default")) ?>"<?php
+		if ($_tmp = array_filter([$presenter->isLinkCurrent() ? 'active' : NULL])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>>Home</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Song:default")) ?>"<?php
+		if ($_tmp = array_filter([$presenter->isLinkCurrent() ? 'active' : NULL])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>>Songs</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Artist:default")) ?>"<?php
+		if ($_tmp = array_filter([$presenter->isLinkCurrent() ? 'active' : NULL])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>>Artists</a></li>
+			<li><a href="<?php echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link("Chord:default")) ?>"<?php
+		if ($_tmp = array_filter([$presenter->isLinkCurrent() ? 'active' : NULL])) echo ' class="', LR\Filters::escapeHtmlAttr(implode(" ", array_unique($_tmp))), '"' ?>>Chords</a></li>
 
 <?php
 		if ($user->loggedIn) {
@@ -136,6 +140,8 @@ class Template43dc317793 extends Latte\Runtime\Template
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
 	<script src="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 64 */ ?>/js/main.js"></script>
+	<script src="<?php echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 65 */ ?>/js/nette.ajax.js"></script> 
+
 <?php
 	}
 
