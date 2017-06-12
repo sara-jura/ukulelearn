@@ -11,10 +11,15 @@ use App\Forms\LoginForm;
 use Nette\Application\UI\Presenter;
 
 
-
+/**
+ * Class LoginPresenter
+ * @package App\Presenters
+ */
 class LoginPresenter extends BasePresenter
 {
-    /** @var  LoginForm @inject */
+    /**
+     * Trida pro formulare k prihlasovani
+     * @var  LoginForm @inject */
     public $loginManager;
 
     /**
@@ -32,6 +37,9 @@ class LoginPresenter extends BasePresenter
         return $form;
     }
     # odhlaseni uzivatele
+    /**
+     * Odhlasuje uzivatele a presmerovava na domovskou stranku
+     */
     public function actionOut()
     {
         $this->getUser()->logout(TRUE);

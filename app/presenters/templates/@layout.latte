@@ -20,7 +20,7 @@
 <body>
 <div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 
-<header class="container">
+<header class="container-fluid">
 	<div class="logo">
 		<a href="{link Homepage:default}"><img src="{$basePath}/images/logo.png" alt="logo"/></a>
 	</div>
@@ -43,7 +43,7 @@
 	</nav>
 </header>
 <hr class="cleaner"/>
-<div class="container" id="content">
+<div class="container-fluid" id="content">
 	<article class="content-left">
 		{include content}
 	</article>

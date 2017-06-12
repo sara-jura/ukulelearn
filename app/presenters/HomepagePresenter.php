@@ -1,11 +1,20 @@
 <?php
-
+/**
+ * Created by PhpStorm.
+ * User: sara
+ * Date: 02.04.2017
+ * Time: 15:54
+ */
 namespace App\Presenters;
 
 use Nette;
 use App\Model;
 
 
+/**
+ * Class HomepagePresenter
+ * @package App\Presenters
+ */
 class HomepagePresenter extends BasePresenter
 {
     /**
@@ -14,6 +23,9 @@ class HomepagePresenter extends BasePresenter
      */
     public $EntityManager;
 
+    /**
+     *
+     */
     public function renderDefault()
     {
     }

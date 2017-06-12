@@ -1,4 +1,10 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sara
+ * Date: 25.03.2017
+ * Time: 23:15
+ */
 namespace App\Forms;
 use App\Model\User;
 use Nette;
@@ -13,21 +19,29 @@ use Kdyby\Doctrine\EntityManager;
 class UserForm extends Nette\Object
 {
     /**
+     * repository pro tridu User, ktera umoznuje provadet databazove operace nad jejimi objekty
      * @var  Model\UserRepository $users
      */
     private $users;
     /**
+     * manager pro praci s databazi
      * @var  EntityManager $em
      */
     private $em;
+
+    /**
+     * UserForm constructor.
+     * @param Model\UserRepository $users
+     * @param EntityManager $entityManager
+     */
     public function __construct(Model\UserRepository $users, EntityManager $entityManager)
     {
         $this->users = $users;
         $this->em = $entityManager;
     }
     /**
+     * funkce k vytvoreni formulare na registraci uzivatele, pri zadavani hesla kontroluje jestli bylo v obou pripadech zadane stejne heslo
      * @param integer $id
-     *
      * @return Form
      */
     public function create($id = null)
@@ -62,6 +76,7 @@ class UserForm extends Nette\Object
         return $form;
     }
     /**
+     * funkce pro validaci vstupu, pokud vstup validaci projde, novy uzivatel se ulozi do databaze
      * @param Form $form
      */
     public function userFormSuccess(Form $form)

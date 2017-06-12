@@ -1,0 +1,58 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: sara
+ * Date: 26.03.2017
+ * Time: 19:30
+ */
+
+namespace App\Model;
+use App\Model\Song;
+use App\Model\CRUD;
+use Kdyby\Doctrine\EntityManager;
+use Nette\Object;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+
+/**
+ * Class OneLineRepository
+ * @package App\Model
+ */
+class OneLineRepository extends Object
+{
+    use CRUD;
+    /**
+     * Repository pro akord
+     * @var
+     */
+    private $repository;
+
+    /**
+     * injectuje Entity Manager
+     * @param EntityManager $entityManager
+     */
+    public function inject(EntityManager $entityManager)
+    {
+        $this->repository = $entityManager->getRepository(OneLine::class);
+    }
+
+    /**
+     * vraci vers podle id
+     * @param $id id verse
+     * @return null|object
+     */
+    public function getLine($id)
+    {
+        return isset($id) ? $this->em->find(OneLine::class, $id) : NULL;
+    }
+
+    /**
+     * vyhleda vsechny verse
+     * @return OneLine[]
+     */
+    public function findAll()
+    {
+        return $this->em->getRepository(OneLine::getClassName())->findAll();
+    }
+
+}

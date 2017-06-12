@@ -24,8 +24,10 @@ class LoginForm extends Nette\Object
     private $authenticator;
     /** @var NS\User */
     private $user;
+
     /**
      * @param NS\User $user
+     * @param Authenticator $authenticator
      */
     public function __construct(NS\User $user, Authenticator $authenticator)
     {
@@ -33,7 +35,7 @@ class LoginForm extends Nette\Object
         $this->authenticator=$authenticator;
     }
     /**
-     * Vytovoření formuláře pro přihlášení
+     * Vytvoření formuláře pro přihlášení
      * @return Form
      */
     public function create()

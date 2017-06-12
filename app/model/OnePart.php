@@ -11,23 +11,38 @@ use Doctrine\ORM\Mapping as ORM;
 use \Kdyby\Doctrine\Entities\BaseEntity;
 
 /**
+ * Class OnePart
  * @ORM\Entity
  */
 class OnePart extends BaseEntity {
+    /**
+     * Repository pro akord
+     * @var ChordRepository
+     */
     protected $chordRepository;
+    /**
+     * trida akordu
+     * @var Chord
+     */
     protected  $chordclass;
-    function inject(ChordRepository $chordRepository,Chord $chordclass){
-        $this->chordRepository=$chordRepository;
-        $this->chordclass=$chordclass;
 
+    /**
+     * injektuje zavislosti
+     * @param ChordRepository $chordRepository
+     * @param Chord $chordclass
+     */
+    function inject(ChordRepository $chordRepository, Chord $chordclass){
+        $this->chordRepository=$chordRepository;
     }
     /**
+     * id casti pisne
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
      */
     protected $id;
     /**
+     * vazba na vers
      * @ORM\ManyToOne(targetEntity="OneLine", inversedBy="parts",cascade={"persist"})
      * @ORM\JoinColumn(name="line_id", referencedColumnName="id")
      * @var OneLine
@@ -35,17 +50,19 @@ class OnePart extends BaseEntity {
     protected $line;
 
     /**
-     * Many Users have One Address.
-     * @ORM\OneToOne(targetEntity="Chord")
+     * Vazba na akord
+     * @ORM\ManyToOne(targetEntity="Chord")
      * @ORM\JoinColumn(name="chord_id", referencedColumnName="id")
      */
     public $chord;
     /**
+     * slova pisne
      * @ORM\Column(type="string")
      */
     public $lyric;
 
     /**
+     * id getter
      * @return mixed
      */
     public function getId()
@@ -54,6 +71,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * id setter
      * @param mixed $id
      */
     public function setId($id)
@@ -62,6 +80,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * line getter
      * @return OneLine
      */
     public function getLine()
@@ -70,6 +89,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * line setter
      * @param OneLine $line
      */
     public function setLine($line)
@@ -78,6 +98,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * chord getter
      * @return mixed
      */
     public function getChord()
@@ -86,6 +107,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * chord setter
      * @param mixed $chord
      */
     public function setChord($chord)
@@ -94,6 +116,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * lyric getter
      * @return mixed
      */
     public function getLyric()
@@ -102,6 +125,7 @@ class OnePart extends BaseEntity {
     }
 
     /**
+     * lyric setter
      * @param mixed $lyric
      */
     public function setLyric($lyric)

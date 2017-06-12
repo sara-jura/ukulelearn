@@ -8,7 +8,10 @@
 namespace App\Model;
 use App\Model;
 use Nette;
+use App\Model\CRUD;
 use Kdyby;
+use Kdyby\Doctrine\EntityManager;
+
 /**
  * Class Users
  * @package App\Model\Repository
@@ -16,32 +19,38 @@ use Kdyby;
  */
 class UserRepository extends Nette\Object
 {
+    use CRUD;
+
     /**
-     * @var Kdyby\Doctrine\EntityManager
+     * Repozitar pro uzivatele
+     * @var Kdyby\Doctrine\EntityRepository
      */
-    private $em;
     private $repository;
-    public function __construct(Kdyby\Doctrine\EntityManager $entityManager)
+
+    /**
+     * UserRepository constructor.
+     * @param Kdyby\Doctrine\EntityManager $entityManager
+     */
+    public function inject(EntityManager $entityManager)
     {
-        $this->em = $entityManager;
-        $this->repository = $entityManager->getRepository(Model\User::class);
+        $this->repository = $entityManager->getRepository(User::class);
     }
     /**
-     * @param $username
-     *
+     * Najde a vrati uzivatele podle jeho uzivatelskeho jmena
+     * @param $username uzivatelske jmeno
      * @return null|\App\Model\User
      */
     public function findByUsername($username)
     {
-        return $this->repository->findOneBy(array('username' => $username));
+        return $this->em->getRepository(User::getClassName())->findOneBy(array('username' => $username));
     }
     /**
-     * @param $id
-     *
+     * Najde a vrati uzivatele podle id
+     * @param $id id uzivatele
      * @return mixed|null|object
      */
     public function findById($id)
     {
-        return $this->repository->findOneBy(array('id' => $id));
+        return $this->em->getRepository(User::getClassName())->findOneBy(array('id' => $id));
     }
 }

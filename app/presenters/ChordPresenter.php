@@ -17,34 +17,57 @@ use Nette;
 use App\Model;
 use Kdyby;
 
+/**
+ * Class ChordPresenter
+ * @package App\Presenters
+ */
 class ChordPresenter extends BasePresenter
 {
-    protected $artistRepository;
-    protected $songRepository;
+    /**
+     * trida pro formular k vytvareni akordu
+     * @var
+     */
     protected $chordForm;
+    /**
+     * repository pro tridu Chord, ktera umoznuje provadet databazove operace nad jejimi objekty
+     * @var
+     */
     protected $chordRepository;
-    public function injectDependencies(ArtistRepository $artistModel,
-                                       SongRepository $songRepository,
+
+    /**
+     * injektuje potrebne tridy
+     * @param ChordRepository $chordRepository
+     * @param ChordForm $chordForm
+     */
+    public function injectDependencies(
                                        ChordRepository $chordRepository,
-                                        ChordForm $chordForm)
+                                       ChordForm $chordForm)
     {
-        $this->artistRepository = $artistModel;
-        $this->songRepository= $songRepository;
     $this->chordRepository=$chordRepository;
         $this->chordForm=$chordForm;
     }
+
+    /**
+     * zobrazuje seznam vsech akordu
+     */
     public function renderDefault() {
         /** TODO - nastavení atributu šablony users */
         $this->template->chords = $this->chordRepository->findAll();
 
     }
+
+    /**
+     * zobrazuje detail o jednom akordu
+     * @param $id
+     */
     public function renderDetail($id) {
         /** TODO - nastavení atributu šablony users */
         $chord=$this->chordRepository->getChord($id);
         $this->template->chord=$chord;
-        $this->template->displayimg=file_exists($this->context->parameters['wwwDir'].'\images\\'.$chord->name.'.png');
+        $this->template->displayimg=file_exists('./images/'.$chord->name.'.png');
     }
     /**
+     * vytvari formular pro pridani akordu
      * @return Nette\Application\UI\Form
      */
     public function createComponentChordForm()
@@ -52,6 +75,11 @@ class ChordPresenter extends BasePresenter
         $id = $this->getPresenter()->getParameter('id');
         return $form = $this->chordForm->create($id);
     }
+
+    /**
+     * zobrazuje formular pro pridani akordu
+     * @param $id
+     */
     public function renderAddChord($id)
     {
 

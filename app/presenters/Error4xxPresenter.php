@@ -1,14 +1,26 @@
 <?php
-
+/**
+ * Created by PhpStorm.
+ * User: sara
+ * Date: 02.04.2017
+ * Time: 15:54
+ */
 namespace App\Presenters;
 
 use Nette;
 
 
+/**
+ * Class Error4xxPresenter
+ * @package App\Presenters
+ */
 class Error4xxPresenter extends BasePresenter
 {
 
-	public function startup()
+    /**
+     *
+     */
+    public function startup()
 	{
 		parent::startup();
 		if (!$this->getRequest()->isMethod(Nette\Application\Request::FORWARD)) {
@@ -17,7 +29,10 @@ class Error4xxPresenter extends BasePresenter
 	}
 
 
-	public function renderDefault(Nette\Application\BadRequestException $exception)
+    /**
+     * @param Nette\Application\BadRequestException $exception
+     */
+    public function renderDefault(Nette\Application\BadRequestException $exception)
 	{
 		// load template 403.latte or 404.latte or ... 4xx.latte
 		$file = __DIR__ . "/templates/Error/{$exception->getCode()}.latte";

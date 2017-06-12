@@ -8,8 +8,8 @@ database:
 	options:
 		lazy: yes
 doctrine:
-    user: doctrine
-    password: kreslo
-    dbname: doctrine_devel
+    user: juransar
+    password: juransar
+    dbname: juransar
     metadata:
         App: %appDir%

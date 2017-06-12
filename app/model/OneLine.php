@@ -11,28 +11,33 @@ use Doctrine\ORM\Mapping as ORM;
 use \Kdyby\Doctrine\Entities\BaseEntity;
 
 /**
+ * Class OneLine
  * @ORM\Entity
  */
 class OneLine  extends BaseEntity {
     /**
+     * id verse
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
      */
     protected $id;
     /**
+     * vazba na pisen
      * @ORM\ManyToOne(targetEntity="Song", inversedBy="text",cascade={"persist"})
      * @ORM\JoinColumn(name="song_id", referencedColumnName="id")
      * @var Song
      */
     protected $song;
     /**
+     * pole casti verse
      * @ORM\OneToMany(targetEntity="OnePart", mappedBy="line",cascade={"persist"})
      * @var OnePart
      */
     protected $parts;
 
     /**
+     * song getter
      * @return Song
      */
     public function getSong()
@@ -41,6 +46,7 @@ class OneLine  extends BaseEntity {
     }
 
     /**
+     * song setter
      * @param Song $song
      */
     public function setSong($song)
@@ -49,6 +55,7 @@ class OneLine  extends BaseEntity {
     }
 
     /**
+     * parts getter
      * @return OnePart
      */
     public function getParts()
@@ -57,14 +64,25 @@ class OneLine  extends BaseEntity {
     }
 
     /**
-     * @param OnePart $parts
+     * parts setter
+     * @param $part
+     * @internal param OnePart $parts
      */
     public function setParts($part){
 
         $this->parts[]=$part;
     }
-
     /**
+     * parts setter
+     * @param $part
+     * @internal param OnePart $parts
+     */
+    public function unsetParts(){
+
+        $this->parts=null;
+    }
+    /**
+     * id getter
      * @return mixed
      */
     public function getId()
@@ -73,6 +91,7 @@ class OneLine  extends BaseEntity {
     }
 
     /**
+     * id setter
      * @param mixed $id
      */
     public function setId($id)

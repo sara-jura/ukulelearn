@@ -11,11 +11,13 @@ use Doctrine\ORM\Mapping as ORM;
 use \Kdyby\Doctrine\Entities\BaseEntity;
 
 /**
+ * Class Chord
  * @ORM\Entity
  */
 class Chord extends BaseEntity
 {
     /**
+     * id akordu
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
@@ -23,15 +25,18 @@ class Chord extends BaseEntity
     protected $id;
 
     /**
+     * nazev akordu
      * @ORM\Column(type="string")
      */
     protected $name;
     /**
+     * notace akordu
      * @ORM\Column(type="string")
      */
     protected $notation;
 
     /**
+     * id getter
      * @return mixed
      */
     public function getId()
@@ -40,6 +45,7 @@ class Chord extends BaseEntity
     }
 
     /**
+     * id setter
      * @param mixed $id
      */
     public function setId($id)
@@ -48,6 +54,7 @@ class Chord extends BaseEntity
     }
 
     /**
+     * name getter
      * @return mixed
      */
     public function getName()
@@ -56,6 +63,7 @@ class Chord extends BaseEntity
     }
 
     /**
+     * name setter
      * @param mixed $name
      */
     public function setName($name)
@@ -64,6 +72,7 @@ class Chord extends BaseEntity
     }
 
     /**
+     * notation getter
      * @return mixed
      */
     public function getNotation()
@@ -72,6 +81,7 @@ class Chord extends BaseEntity
     }
 
     /**
+     * notation setter
      * @param mixed $notation
      */
     public function setNotation($notation)

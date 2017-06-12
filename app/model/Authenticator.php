@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sara
+ * Date: 25.03.2017
+ * Time: 21:27
+ */
+
 namespace App\Model;
 use App\Model\UserRepository;
 use Nette;
@@ -15,11 +22,17 @@ class Authenticator extends Nette\Object implements NS\IAuthenticator
      * @var User users
      */
     private $users;
+
+    /**
+     * Authenticator constructor.
+     * @param \App\Model\UserRepository $users
+     */
     public function __construct(UserRepository $users)
     {
         $this->users = $users;
     }
     /**
+     * Autentizuje uzivatele
      * @param array $credentials
      *
      * @return NS\Identity

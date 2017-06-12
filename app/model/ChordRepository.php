@@ -14,22 +14,52 @@ use Nette\Object;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 
+/**
+ * Class ChordRepository
+ * @package App\Model
+ */
 class ChordRepository extends Object
 {
     use CRUD;
+    /**
+     * Repository pro akord
+     * @var
+     */
     private $repository;
+
+    /**
+     * injectuje Entity Manager
+     * @param EntityManager $entityManager
+     */
     public function inject(EntityManager $entityManager)
     {
         $this->repository = $entityManager->getRepository(Chord::class);
     }
+
+    /**
+     * vraci akord podle id
+     * @param $id id akordu
+     * @return null|object
+     */
     public function getChord($id)
     {
         return isset($id) ? $this->em->find(Chord::class, $id) : NULL;
     }
+
+    /**
+     * vyhleda vsechny akordy
+     * @return Chord[]
+     */
     public function findAll()
     {
         return $this->em->getRepository(Chord::getClassName())->findAll();
     }
+
+    /**
+     * vyhleda akord podle nazvu
+     * @param $name
+     * @return mixed
+     */
     public function findByName($name)
     {
         return $this->repository->findOneBy(array('name' => $name));

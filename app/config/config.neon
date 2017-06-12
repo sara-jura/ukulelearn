@@ -35,6 +35,12 @@ services:
 	userrepository:
 	    class:  App\Model\UserRepository
 	    inject: yes
+	onepartrepository:
+	    class: App\Model\OnePartRepository
+	    inject: yes
+	onelinerepository:
+	    class: App\Model\OneLineRepository
+	    inject: yes
 	loginform:
 	    class:  App\Forms\LoginForm
 	    inject: yes
@@ -53,7 +59,6 @@ services:
 	chordclass:
 	    class: App\Model\Chord
 	    inject: yes
-
 extensions:
     console: Kdyby\Console\DI\ConsoleExtension
     events: Kdyby\Events\DI\EventsExtension
@@ -61,3 +66,9 @@ extensions:
     doctrine: Kdyby\Doctrine\DI\OrmExtension
     translation: Kdyby\Translation\DI\TranslationExtension
     validator: Kdyby\Validator\DI\ValidatorExtension
+doctrine:
+    user: juransar
+    password: 'juransar'
+    dbname: juransar
+    metadata:
+        App: %appDir%

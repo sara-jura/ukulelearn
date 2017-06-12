@@ -1,5 +1,6 @@
 {block content}
-<h1>{$song->title}</h1>
+<h1 xmlns="http://www.w3.org/1999/html">{$song->title} - {$song->artist->name}</h1>
+
 {*<p>{$song->text}</p>*}
 {foreach $song->text as $line}
 <div class="chordline">
@@ -9,3 +10,5 @@
     {/foreach}
     </div>
 {/foreach}
+<a n:href="Song:editsong $song->id"><button type="button" class="btn btn-primary"> Edit song</button></a>
+<a n:href="Song:delete $song->id"><button type="button" class="btn btn-danger"> Delete song</button></a>

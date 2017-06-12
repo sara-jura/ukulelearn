@@ -13,13 +13,19 @@ use App\Forms\UserForm;
 use Nette\Application\UI\Form;
 use Nette\Application\UI\Presenter;
 
+/**
+ * Class UserPresenter
+ * @package App\Presenters
+ */
 class UserPresenter extends Presenter
 {
     /**
+     * trida pro formular k registraci
      * @var UserForm $userForm
      */
     protected $userForm;
     /**
+     * injektuje tridu s formularem
      * @param UserForm $userForm
      */
     public function injectUserForm(UserForm $userForm)
@@ -27,6 +33,7 @@ class UserPresenter extends Presenter
         $this->userForm = $userForm;
     }
     /**
+     * Vytvari formular pro registraci uzivatele
      * @return Form
      */
     public function createComponentUserForm()
@@ -35,6 +42,10 @@ class UserPresenter extends Presenter
         return $form = $this->userForm->create($id);
     }
 
+    /**
+     * Renderuje formular k registraci uzivatele
+     * @param $id
+     */
     public function renderManageUser($id)
     {
     }

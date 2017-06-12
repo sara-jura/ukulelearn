@@ -9,6 +9,7 @@ namespace App\Model;
 use Doctrine\ORM\Mapping as ORM;
 use \Kdyby\Doctrine\Entities\BaseEntity;
 /**
+ * Class Song
  * @ORM\Entity
  */
 class Song extends BaseEntity
@@ -16,6 +17,7 @@ class Song extends BaseEntity
 
 
     /**
+     * id pisne
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
@@ -23,15 +25,22 @@ class Song extends BaseEntity
     protected $id;
 
     /**
+     * titul pisne
      * @ORM\Column(type="string")
      */
     protected $title;
 
     /**
+     * verse pisne
      * @ORM\OneToMany(targetEntity="OneLine", mappedBy="song",cascade={"persist"})
      * @var OneLine
      */
     protected $text;
+    /**
+     * neformatovany text
+     * @ORM\Column(type="string", length=4000)
+     */
+    protected $entireText;
     /**
      * Autor pisnicky
      * @ORM\ManyToOne(targetEntity="Artist", inversedBy="songs")
@@ -41,6 +50,7 @@ class Song extends BaseEntity
     protected $artist;
 
     /**
+     * id getter
      * @return mixed
      */
     public function getId()
@@ -49,6 +59,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * id setter
      * @param mixed $id
      */
     public function setId($id)
@@ -57,6 +68,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * title getter
      * @return mixed
      */
     public function getTitle()
@@ -65,6 +77,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * title setter
      * @param mixed $title
      */
     public function setTitle($title)
@@ -73,6 +86,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * text getter
      * @return mixed
      */
     public function getText()
@@ -81,6 +95,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * text setter
      * @param mixed $text
      */
     public function setText($text)
@@ -89,6 +104,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * artist getter
      * @return Artist
      */
     public function getArtist()
@@ -97,6 +113,7 @@ class Song extends BaseEntity
     }
 
     /**
+     * artist setter
      * @param Artist $artist
      */
     public function setArtist($artist)
@@ -104,6 +121,23 @@ class Song extends BaseEntity
         $this->artist = $artist;
     }
 
+    /**
+     * poskytuje var entireText, ktera obsahuje text pisne tak jak ji zadal uzivatel, pouzivane primarne pro editaci
+     * @return mixed
+     */
+    public function getEntireText()
+    {
+        return $this->entireText;
+    }
+
+    /**
+     * nastavuje var entireText, ktera obsahuje text pisne tak jak ji zadal uzivatel
+     * @param string $entireText
+     */
+    public function setEntireText($entireText)
+    {
+        $this->entireText = $entireText;
+    }
 
 }
 

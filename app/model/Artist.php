@@ -10,11 +10,13 @@ namespace App\Model;
 use Doctrine\ORM\Mapping as ORM;
 use \Kdyby\Doctrine\Entities\BaseEntity;
 /**
+ * Class Artist
  * @ORM\Entity
  */
 class Artist extends BaseEntity
 {
     /**
+     * Id Interpreta
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
@@ -22,17 +24,19 @@ class Artist extends BaseEntity
     protected $id;
 
     /**
+     * Jmeno interpreta
      * @ORM\Column(type="string")
      */
     protected $name;
     /**
-     *
+     *seznam pisni interpreta
      * @ORM\OneToMany(targetEntity="Song", mappedBy="artist")
-     * @var Song
+     * @var Song[]
      */
     protected $songs;
 
     /**
+     * id getter
      * @return mixed
      */
     public function getId()
@@ -41,6 +45,7 @@ class Artist extends BaseEntity
     }
 
     /**
+     * id setter
      * @param mixed $id
      */
     public function setId($id)
@@ -49,6 +54,7 @@ class Artist extends BaseEntity
     }
 
     /**
+     * name getter
      * @return mixed
      */
     public function getName()
@@ -57,6 +63,7 @@ class Artist extends BaseEntity
     }
 
     /**
+     * name setter
      * @param mixed $name
      */
     public function setName($name)
@@ -65,7 +72,8 @@ class Artist extends BaseEntity
     }
 
     /**
-     * @return Song
+     * songs getter
+     * @return Song[]
      */
     public function getSongs()
     {
@@ -73,6 +81,7 @@ class Artist extends BaseEntity
     }
 
     /**
+     * songs setter
      * @param Song $songs
      */
     public function setSongs($songs)
